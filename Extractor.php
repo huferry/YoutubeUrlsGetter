@@ -1,9 +1,19 @@
-<?
+<? namespace YoutubeUrlsGetter;
+
 class Extractor
 {
-    public function __construct($url)
+    private $url;
+
+    public function __construct(VideoUrl $url)
     {
-        echo('test');
-        throw new InvalidArgumentException();
+        $this->url = $url;
+    }
+
+    function __get($p)
+    {
+        if ($p == "videoId")
+        {
+            return $this->url->videoId;
+        }
     }
 }

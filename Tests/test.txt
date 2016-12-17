@@ -1,0 +1,1488 @@
+<!DOCTYPE html><html lang="nl" data-cast-api-enabled="true"><head><style name="www-roboto">@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf)format('truetype');}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "N");document.fonts.load("500 10pt Roboto", "N");}</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: window.performance && window.performance.timing &&window.performance.now ? function() {return window.performance.timing.navigationStart + window.performance.now();} : function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {el.loadTime = ytcsi.now();}};})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>  <script>ytcfg.set("EXP_QUICK_FETCH_BISCOTTI", false);ytcfg.set("LACT", null);</script>
+  
+
+
+
+
+  <script>
+        (function(){var b={a:"content-snap-width-1",b:"content-snap-width-2",c:"content-snap-width-3"};function g(){var a=[],c;for(c in b)a.push(b[c]);return a}
+function h(a){var c=g().concat(["guide-pinned","show-guide"]),e=c.length,f=[];a.replace(/\S+/g,function(a){for(var d=0;d<e;d++)if(a==c[d])return;f.push(a)});
+return f}
+;function k(a,c,e){var f=document.getElementsByTagName("html")[0],d=h(f.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(d.push("guide-pinned"),c&&d.push("show-guide"));e&&(e=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(e-=230),d.push(1262<=e?"content-snap-width-3":1056<=e?"content-snap-width-2":"content-snap-width-1"));f.className=d.join(" ")}
+var l=["yt","www","masthead","sizing","runBeforeBodyIsReady"],m=this;l[0]in m||!m.execScript||m.execScript("var "+l[0]);for(var n;l.length&&(n=l.shift());)l.length||void 0===k?m[n]?m=m[n]:m=m[n]={}:m[n]=k;}).call(this);
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(false,false,true);
+  </script>
+
+      <script src="//s.ytimg.com/yts/jsbin/scheduler-vfl86_obS/scheduler.js" type="text/javascript" name="scheduler/scheduler"></script>
+
+
+    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+
+          <script src="//s.ytimg.com/yts/jsbin/player-nl_NL-vflAcQ7-G/base.js" name="player/base"></script>
+
+
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflSDxOCt.css" name="www-core">
+      <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-player-vflSGHCwJ.css" name="www-player">
+
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vflf8g2lE.css" name="www-pageframe">
+      <script>ytimg.preload("https:\/\/r1---sn-ui0pn-5hne.googlevideo.com\/crossdomain.xml");ytimg.preload("https:\/\/r1---sn-ui0pn-5hne.googlevideo.com\/generate_204");</script>
+
+
+<title>Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2) - YouTube</title><link rel="canonical" href="https://www.youtube.com/watch?v=TNNksZ297Xg"><link rel="alternate" media="handheld" href="https://m.youtube.com/watch?v=TNNksZ297Xg"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/watch?v=TNNksZ297Xg">      <meta name="title" content="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+
+      <meta name="description" content="Adu gagasan para kandidat pemimpin DKI Jakarta, tersaji di Kompas TV. Dua pasangan calon gubernur dan calon wakil gubernur berdebat, serta saling mempromosik...">
+
+      <meta name="keywords" content="5250492375001, Kompas, Indonesia, Ahok, Rosianna Silalahi, kompas tv, anies baswedan, Djarot Saiful Hidayat, folder_rosi, youtube, KCM, pilkada 2017, sandiag...">
+
+<link rel="manifest" href="/manifest.json"><link rel="shortlink" href="https://youtu.be/TNNksZ297Xg"><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=nl_NL" title="Video&#39;s zoeken op YouTube"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png" sizes="48x48"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png" sizes="96x96"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png" sizes="144x144"><meta name="theme-color" content="#e62117">        <link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=TNNksZ297Xg">
+    <link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=TNNksZ297Xg">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTNNksZ297Xg&amp;format=json" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTNNksZ297Xg&amp;format=xml" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+
+        <meta property="og:site_name" content="YouTube">
+      <meta property="og:url" content="https://www.youtube.com/watch?v=TNNksZ297Xg">
+    <meta property="og:title" content="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+    <meta property="og:image" content="https://i.ytimg.com/vi/TNNksZ297Xg/hqdefault.jpg">
+
+      <meta property="og:description" content="Adu gagasan para kandidat pemimpin DKI Jakarta, tersaji di Kompas TV. Dua pasangan calon gubernur dan calon wakil gubernur berdebat, serta saling mempromosik...">
+
+    <meta property="al:ios:app_store_id" content="544007664">
+    <meta property="al:ios:app_name" content="YouTube">
+      <meta property="al:ios:url" content="vnd.youtube://www.youtube.com/watch?v=TNNksZ297Xg&amp;feature=applinks">
+
+      <meta property="al:android:url" content="vnd.youtube://www.youtube.com/watch?v=TNNksZ297Xg&amp;feature=applinks">
+    <meta property="al:android:app_name" content="YouTube">
+    <meta property="al:android:package" content="com.google.android.youtube">
+    <meta property="al:web:url" content="https://www.youtube.com/watch?v=TNNksZ297Xg&amp;feature=applinks">
+
+    <meta property="og:type" content="video">
+        <meta property="og:video:url" content="https://www.youtube.com/embed/TNNksZ297Xg">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/embed/TNNksZ297Xg">
+        <meta property="og:video:type" content="text/html">
+        <meta property="og:video:width" content="640">
+        <meta property="og:video:height" content="360">
+        <meta property="og:video:url" content="http://www.youtube.com/v/TNNksZ297Xg?version=3&amp;autohide=1">
+        <meta property="og:video:secure_url" content="https://www.youtube.com/v/TNNksZ297Xg?version=3&amp;autohide=1">
+        <meta property="og:video:type" content="application/x-shockwave-flash">
+        <meta property="og:video:width" content="640">
+        <meta property="og:video:height" content="360">
+
+        <meta property="og:video:tag" content="5250492375001">
+        <meta property="og:video:tag" content="Kompas">
+        <meta property="og:video:tag" content="Indonesia">
+        <meta property="og:video:tag" content="Ahok">
+        <meta property="og:video:tag" content="Rosianna Silalahi">
+        <meta property="og:video:tag" content="kompas tv">
+        <meta property="og:video:tag" content="anies baswedan">
+        <meta property="og:video:tag" content="Djarot Saiful Hidayat">
+        <meta property="og:video:tag" content="folder_rosi">
+        <meta property="og:video:tag" content="youtube">
+        <meta property="og:video:tag" content="KCM">
+        <meta property="og:video:tag" content="pilkada 2017">
+        <meta property="og:video:tag" content="sandiaga uno">
+        <meta property="og:video:tag" content="basuki tjahaja purnama">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="https://www.youtube.com/watch?v=TNNksZ297Xg">
+    <meta name="twitter:title" content="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+    <meta name="twitter:description" content="Adu gagasan para kandidat pemimpin DKI Jakarta, tersaji di Kompas TV. Dua pasangan calon gubernur dan calon wakil gubernur berdebat, serta saling mempromosik...">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/TNNksZ297Xg/hqdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://www.youtube.com/watch?v=TNNksZ297Xg&amp;feature=applinks">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://www.youtube.com/watch?v=TNNksZ297Xg&amp;feature=applinks">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="https://www.youtube.com/watch?v=TNNksZ297Xg">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/TNNksZ297Xg">
+      <meta name="twitter:player:width" content="640">
+      <meta name="twitter:player:height" content="360">
+
+  
+<style>.yt-uix-button-primary, .yt-uix-button-primary[disabled], .yt-uix-button-primary[disabled]:hover, .yt-uix-button-primary[disabled]:active, .yt-uix-button-primary[disabled]:focus { background-color: #167ac6; }</style></head>  <body dir="ltr" id="body" class="  ltr    exp-responsive exp-scrollable-guide exp-search-big-thumbs exp-search-big-thumbs246 exp-search-font-18 exp-wn-big-thumbs exp-wn-big-thumbs-v3 exp-wn-font-14   site-center-aligned site-as-giant-card sitewide-consent-visible appbar-hidden    visibility-logging-enabled   not-nirvana-dogfood  not-yt-legacy-css    flex-width-enabled      flex-width-enabled-snap    delayed-frame-styles-not-in  " data-spf-name="watch">
+<div id="early-body"></div><div id="body-container"><div id="a11y-announcements-container" role="alert"><div id="a11y-announcements-message"></div></div><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">  <div id="ticker-content">
+          <div class="yt-consent yt-consent-banner clearfix">
+    <div class="yt-consent-buttons">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default consent-close" type="button" onclick=";return false;" aria-label="Laat me de privacyherinnering later zien"><span class="yt-uix-button-content">Later herinneren</span></button>
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary consent-review" type="button" onclick=";return false;" aria-label="Privacyherinnering nu bekijken"><span class="yt-uix-button-content">Nu bekijken</span></button>
+    </div>
+    <div class="yt-consent-icon"></div>
+    <div class="yt-consent-content" role="alert">
+Conform de wetgeving ten aanzien van de bescherming van gegevens verzoeken we je even de tijd te nemen om de belangrijkste punten van ons Privacybeleid door te lezen. Dit beleid geldt voor alle services van Google. Het beschrijft hoe wij gegevens gebruiken en welke opties je hebt. <b>Je moet dit vandaag nog doen.</b>
+    </div>
+  </div>
+
+
+  </div>
+  <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Navigatie overslaan
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" aria-label="Gids" aria-controls="appbar-guide-menu" id="appbar-guide-button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button>
+  <div id="appbar-main-guide-notification-container"></div>
+<span id="yt-masthead-logo-fragment"><a href="/" class="masthead-logo-renderer yt-uix-sessionlink       spf-link " data-sessionlink="itct=CAUQsV4iEwjFzs_-9frQAhVShlUKHQZMBb4o-B0"  id="logo-container" title="YouTube-homepage">  <span title="YouTube-homepage" class="logo masthead-logo-renderer-logo yt-sprite"></span>
+<span class="content-region">NL</span></a></span></div><div id="yt-masthead-signin"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw&amp;feature=mhsb" id="upload-btn" title="Uploaden"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite"></span></span></a><div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" role="link" href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3Dsign_in_button&amp;service=youtube&amp;hl=nl&amp;uilel=3"><span class="yt-uix-button-content">Inloggen</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="  search-form consolidated-form  vve-check" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking="CAIQ7VAiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0" data-visibility-tracking="CAIQ7VAiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" dir="ltr" id="search-btn" tabindex="2"><span class="yt-uix-button-content">Zoeken</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off"  onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="Zoeken" title="Zoeken" aria-label="Zoeken"></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  watch        video-TNNksZ297Xg clearfix"><div id="guide" class="yt-scrollbar">    <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor">
+    <div id="guide-container">
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div class="alerts-wrapper"><div id="alerts" class="content-alignment">    <div class="yt-alert yt-alert-default yt-alert-info  " id="yt-lang-alert-container">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message" tabindex="0">
+            Kies je taal.
+
+    </div>
+</div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Sluiten" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Sluiten</span></button></div><div class="yt-alert-panel ">  <div id="yt-lang-alert-content" class="clearfix">
+    <div id="default-language-message">
+      <div class="yt-lang-alert-controls">
+        <a href="//support.google.com/youtube/answer/1738660?hl=nl">Meer informatie</a><br>
+          <a href="javascript:void(0)" onclick="yt.style.toggle('default-language-message', 'default-language-message-english'); return false;">View this message in English</a>
+      </div>
+Je gebruikt YouTube in het <strong>Nederlands</strong>.
+Je kunt <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">deze voorkeur hieronder wijzigen</a>.
+    </div>
+    <div id="default-language-message-english" class="hid">
+      <div class="yt-lang-alert-controls">
+        <a href="//support.google.com/youtube/answer/1738660?hl=en">Learn more</a><br>
+      </div>
+      You're viewing YouTube in <strong>Dutch</strong>.
+        You can <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">change this preference below</a>.
+    </div>
+  </div>
+</div></div>
+  
+  <div id="editor-progress-alert-container"></div>
+  <div class="yt-alert yt-alert-default yt-alert-warn hid " id="editor-progress-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert"></div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Sluiten" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Sluiten</span></button></div></div>
+
+    <div id="edit-confirmation-alert"></div>
+  <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="edit-confirmation-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message" tabindex="0">
+    </div>
+</div><div class="yt-alert-buttons">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-yes" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-like-invert yt-sprite"></span></span><span class="yt-uix-button-content">Ja, nieuwe versie behouden</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-no" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-unlike-invert yt-sprite"></span></span><span class="yt-uix-button-content">Ongedaan maken</span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Sluiten" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Sluiten</span></button></div></div>
+
+
+
+</div></div><div id="header"></div><div id="player" class="  content-alignment       watch-small  " role="complementary"><div id="theater-background" class="player-height"></div>  <div id="player-mole-container">
+    <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+              <img class="icon meh" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-icon="//s.ytimg.com/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+              Deze video is niet beschikbaar.
+
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target player-api" tabIndex="-1"></div>
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"params":{"allowscriptaccess":"always","allowfullscreen":"true","bgcolor":"#000000"},"attrs":{"id":"movie_player"},"url_v8":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflN0vrbF\/cps.swf","url":"https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflN0vrbF\/watch_as3.swf","args":{"fexp":"9422596,9428398,9431012,9433221,9434046,9434289,9439580,9441514,9446054,9446364,9449034,9449243,9450060,9451873,9456640,9456846,9457760","fflags":"html5_idle_preload_secs=1\u0026html5_timeupdate_readystate_check=true\u0026html5_get_video_info_timeout_ms=0\u0026html5_tight_max_buffer_allowed_impaired_time=0.0\u0026polymer_static_chunk=false\u0026html5_repredict_interval_secs=0.0\u0026html5_live_4k_more_buffer=true\u0026dash_manifest_version=4\u0026live_readahead_seconds_multiplier=0.8\u0026enable_html5_freewheel_longform=true\u0026live_chunk_readahead=3\u0026html5_tight_max_buffer_allowed_bandwidth_stddevs=0.0\u0026cards_drawer_auto_open_duration=-1\u0026tvhtml5_close_on_unrecoverable=true\u0026html5_min_buffer_to_resume=4\u0026polymer_report_missing_web_navigation_endpoint=false\u0026html5_playing_event_buffer_underrun=true\u0026yto_enable_unlimited_landing_page_yto_features=true\u0026enable_yt_music_lp=true\u0026kids_enable_spain_lp=true\u0026enable_ccs_buy_flow_for_chirp=true\u0026enable_playlist_multi_season=true\u0026log_js_exceptions_fraction=0.20\u0026player_no_remote_modules=true\u0026launch_new_wallet_api=true\u0026html5_strip_emsg=true\u0026html5_min_vss_watchtime_to_cut_secs=99999\u0026ad_video_end_renderer_duration_milliseconds=7000\u0026use_push_for_desktop_live_chat=true\u0026enable_live_state_auth=true\u0026feeds_on_innertube=true\u0026html5_ajax_qoe_retry=false\u0026ios_minimum_seconds_between_connectivity_gained_snackbars=300\u0026enable_get_offers_for_item_list_for_get_cart=true\u0026cameo_live_chunk_readahead=3\u0026product_listing_ads_cards_drawer_auto_open=true\u0026sdk_wrapper_levels_allowed=0\u0026kids_asset_theme=server_side_assets\u0026yt_unlimited_pts_skip_ads_promo_desktop_always=true\u0026mweb_pu_android_chrome_54_above=true\u0026html5_min_upgrade_health=0\u0026enable_mrm_channel_approve=true\u0026enable_local_channel=true\u0026html5_throttle_rate=0.0\u0026html5_deadzone_multiplier=1.0\u0026html5_connect_timeout_secs=7.0\u0026html5_new_preloading=true\u0026legacy_embed_snippet=true\u0026kids_enable_latam_lp=true\u0026tvhtml5_audio_starts_radio_station=true\u0026enable_fmp4_defrag=true\u0026html5_variability_full_discount_thresh=0.0\u0026html5_get_video_info_promiseajax=true\u0026html5_retry_media_element_errors_delay=0\u0026html5_reseek_on_infinite_buffer=true\u0026kids_enable_post_onboarding_red_flow=true\u0026disable_html5_cast_hdcp_filter=true\u0026desktop_fsi_promo=style_masthead_ad\u0026html5_variability_discount=0.0\u0026kids_enable_server_side_assets=true\u0026dynamic_ad_break_seek_threshold_sec=0\u0026kids_enable_brazil_lp=true\u0026web_player_innertube_response=true\u0026html5_serverside_biscotti_id_wait_ms=1000\u0026ad_duration_threshold_for_showing_endcap_seconds=15\u0026ios_disable_notification_preprompt=true\u0026mweb_blacklist_progressive_chrome_mobile=true\u0026website_actions_throttle_percentage=1.0\u0026html5_bandwidth_window_size=0\u0026html5_variability_no_discount_thresh=0.0\u0026html5_request_size_min_secs=0.0\u0026disable_new_pause_state3=true\u0026html5_background_quality_cap=360\u0026html5_max_av_sync_drift=25\u0026html5_suspend_manifest_on_pause=false\u0026html5_max_buffer_duration=0\u0026html5_retry_limit=10\u0026html5_always_reload_on_403=true\u0026playready_on_borg=true\u0026show_thumbnail_on_standard=true\u0026lugash_header_by_service=true\u0026cards_drawer_auto_open_offset=-10000\u0026html5_max_vss_watchtime_ratio=0.0\u0026kids_enable_privacy_notice=true\u0026high_res_timestamps=true\u0026html5_background_cap_idle_secs=60\u0026html5_allowable_liveness_drift_chunks=2\u0026yto_enable_watch_offer_module=true\u0026html5_retry_media_element_errors=true\u0026ios_enable_mixin_accessibility_custom_actions=true\u0026variable_load_timeout_ms=0\u0026yto_enable_ytr_promo_refresh_assets=true\u0026music_tastebuilder_p13n=true\u0026log_it_display_tree=true\u0026enable_mweb_ypc_promotion_renderer=true\u0026show_countdown_on_bumper=true\u0026dynamic_ad_break_pause_threshold_sec=0\u0026enable_offer_restricts_for_watch_page_offers=true\u0026lugash_header_warmup=true\u0026legacy_poster_behavior=true\u0026legacy_control_redirecting=true\u0026mpu_visible_threshold_count=2\u0026ios_notifications_disabled_subs_tab_promoted_item_promo=true\u0026yto_feature_hub_channel=false\u0026html5_retry_gvi_more=true\u0026legacy_cast2=true\u0026html5_live_disable_dg_pacing=true\u0026autoplay_time=8000\u0026html5_check_for_reseek=true\u0026flex_theater_mode=true\u0026enable_audio_cast=true\u0026sidebar_renderers=true\u0026html5_max_buffer_health_for_downgrade=0\u0026use_web_player_gestures=true\u0026html5_always_fall_back=true\u0026html5_request_sizing_multiplier=0.8\u0026chrome_promo_enabled=true\u0026native_controls_assume_media_volume=true\u0026ios_minimum_seconds_between_connectivity_lost_snackbars=0\u0026html5_multicam=true\u0026html5_stop_vss2_q_param=true\u0026legacy_autoplay_flag=true\u0026html5_min_vss_watchtime_to_cut_secs_redux=0.0\u0026mweb_adsense_instreams_disabled_for_android_tablets=true\u0026html5_use_mediastream_timestamp=false\u0026kids_enable_columbia_lp=true\u0026html5_long_term_bandwidth_window_size=0","ssl":"1","innertube_context_client_version":"1.20161215","iurlhq":"https:\/\/i.ytimg.com\/vi\/TNNksZ297Xg\/hqdefault.jpg","vmap":"\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cvmap:VMAP xmlns:vmap=\"http:\/\/www.iab.net\/videosuite\/vmap\" xmlns:yt=\"http:\/\/youtube.com\" version=\"1.0\"\u003e\u003c\/vmap:VMAP\u003e","timestamp":"1481967188","is_listed":"1","fmt_list":"43\/640x360\/99\/0\/0,18\/640x360\/9\/0\/115,36\/320x180\/99\/1\/0,17\/176x144\/99\/1\/0","watch_xlb":"https:\/\/s.ytimg.com\/yts\/xlbbin\/watch-strings-nl_NL-vflfmH1Dm.xlb","author":"KOMPASTV","ldpj":"-2","player_error_log_fraction":"1.0","ptk":"youtube_none","player_response":"{}","video_id":"TNNksZ297Xg","apiary_host":"","t":"1","of":"oGd2GXXConGuyLH6dmaUIQ","innertube_api_version":"v1","pltype":"contentugc","tmi":"1","csi_page_type":"watch,watch7_html5","no_get_video_log":"1","watermark":",https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png","pyv_ad_channel":"","iurl":"https:\/\/i.ytimg.com\/vi\/TNNksZ297Xg\/hqdefault.jpg","account_playback_token":"QUFFLUhqa3JFZGNUS3hLVWhITTdEUktycWFTWmk4LUdTQXxBQ3Jtc0tudlRvWjFueGtPcEZKRXZadGRhVXk4NUpFR1pqdHc4RTdnc1VGaW1zc0hNNjVJd0xrX0prVkI2NjJmTDAyWDhqZHN2d1NKMjN6WUNTbGI1ZUhQU2hpT1Z2eTBWdmp4REduQ0lYZHlGWmR0M0ltc2F2NA==","cver":"1.20161215","cl":"142207133","show_pyv_in_related":true,"thumbnail_url":"https:\/\/i.ytimg.com\/vi\/TNNksZ297Xg\/default.jpg","innertube_api_key":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","videostats_playback_base_url":"https:\/\/s.youtube.com\/api\/stats\/playback?len=2164\u0026vm=CAEQAA\u0026cl=142207133\u0026of=oGd2GXXConGuyLH6dmaUIQ\u0026fexp=9422596%2C9428398%2C9431012%2C9433221%2C9434046%2C9434289%2C9439580%2C9441514%2C9446054%2C9446364%2C9449034%2C9449243%2C9450060%2C9451873%2C9456640%2C9456846%2C9457760\u0026el=detailpage\u0026docid=TNNksZ297Xg\u0026plid=AAVD11_VYpbJJhDx\u0026ei=VAZVWMXUEtKM1gKGmJXwCw\u0026ns=yt","plid":"AAVD11_VYpbJJhDx","avg_rating":"5.0","cr":"NL","view_count":"296","host_language":"nl","url_encoded_fmt_stream_map":"quality=medium\u0026type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D179435152%26dur%3D0.000%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481948664191243%26ratebypass%3Dyes%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D448C2A048EE8984111D0A7904691BBE12BBD8843.67892FEC06826E5B0360030AB2F108F051573354%26requiressl%3Dyes%26itag%3D43%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026itag=43,quality=medium\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D148583554%26dur%3D2163.217%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943677453070%26ratebypass%3Dyes%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DA34AC0279B2571165E677F917CFAED3695D6DC03.D224F3F9C82E317F389166217C91ACCF0BB5ECFA%26requiressl%3Dyes%26itag%3D18%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026itag=18,quality=small\u0026type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D59838680%26dur%3D2163.263%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943651102453%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252F3gpp%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D3B751419402AEF85FB87D75947397A51353321B2.C55C2EAEC315B09809A86B5C0B75E1AC6EE853%26requiressl%3Dyes%26itag%3D36%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026itag=36,quality=small\u0026type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D21741969%26dur%3D2163.263%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943648300071%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252F3gpp%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D69AF9E2F7BF3545BA7572D95721F58681C9C56F4.DC089C847DEF3AE52E4C3F048F72637205A4B563%26requiressl%3Dyes%26itag%3D17%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026itag=17","allow_embed":"1","iurlsd":"https:\/\/i.ytimg.com\/vi\/TNNksZ297Xg\/sddefault.jpg","hl":"nl_NL","title":"Rosi \u0026 Kandidat Pemimpin Jakarta (Bag. 2)","gapi_hint_params":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.FgPLF5SwqIU.O\/m=__features__\/rt=j\/d=1\/rs=AHpOoo-9R8fkhlRsCMrG4wpDzgf1RI7BzQ","c":"WEB","token":"1","adaptive_fmts":"quality_label=480p\u0026clen=216597176\u0026fps=25\u0026projection_type=1\u0026init=0-714\u0026lmt=1481943630177194\u0026xtags=\u0026itag=135\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D216597176%26dur%3D2163.120%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943630177194%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DAF68EFA58AEF7C208B14C4B58A48EFFE04246CF3.C633339E6C81D3871F425772A133369C23AADC72%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D135%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=715-5822\u0026bitrate=1170212\u0026size=854x480,quality_label=480p\u0026clen=187266348\u0026fps=25\u0026projection_type=1\u0026init=0-242\u0026lmt=1481955937843103\u0026xtags=\u0026itag=244\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D187266348%26dur%3D2163.080%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481955937843103%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D25485A5F3AAC1FA6463377012F046C7A190EE183.4BBABF34879EBB16E47145FC164E826C6AC69875%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D244%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=243-7806\u0026bitrate=864828\u0026size=854x480,quality_label=360p\u0026clen=105120483\u0026fps=25\u0026projection_type=1\u0026init=0-714\u0026lmt=1481943629980989\u0026xtags=\u0026itag=134\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D105120483%26dur%3D2163.120%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943629980989%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D2C02E9918F946CEBD9D179EB399BFB99C93FC434.70725C23F83547F31035393C6AF5BBEE13555BF0%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D134%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=715-5822\u0026bitrate=644075\u0026size=640x360,quality_label=360p\u0026clen=97999444\u0026fps=25\u0026projection_type=1\u0026init=0-242\u0026lmt=1481955925913788\u0026xtags=\u0026itag=243\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D97999444%26dur%3D2163.080%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481955925913788%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DC1A4D81E3CF0DF81595A9AC82EFE2732D06C6A3A.B7DFF87030F75EA13061DFCF4E8BE64925208172%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D243%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=243-7772\u0026bitrate=470739\u0026size=640x360,quality_label=240p\u0026clen=66417665\u0026fps=25\u0026projection_type=1\u0026init=0-713\u0026lmt=1481943629982522\u0026xtags=\u0026itag=133\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4015%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D66417665%26dur%3D2163.120%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943629982522%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D59AA030085033E7C34CC331F873FC3DF34920FA5.A7FF41063A0933C189186EBACE1CA66DE7D5E1F0%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D133%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=714-5821\u0026bitrate=256698\u0026size=426x240,quality_label=240p\u0026clen=53712272\u0026fps=25\u0026projection_type=1\u0026init=0-241\u0026lmt=1481955923381798\u0026xtags=\u0026itag=242\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D53712272%26dur%3D2163.080%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481955923381798%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D9511E6B6AA91864835F6470031EE84701757C99B.3ACCBAACEF2DD6262E319E0E82634AF8891D196B%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D242%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=242-7710\u0026bitrate=271278\u0026size=426x240,quality_label=144p\u0026clen=30061328\u0026fps=25\u0026projection_type=1\u0026init=0-712\u0026lmt=1481943629977712\u0026xtags=\u0026itag=160\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d400c%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D30061328%26dur%3D2163.120%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943629977712%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D7C3465672F8D1C6E198CE0316B075ED141148829.A86870D8A23A195EE85545A84C20E861505F9AFD%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D160%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=713-5820\u0026bitrate=119234\u0026size=256x144,quality_label=144p\u0026clen=25461019\u0026fps=25\u0026projection_type=1\u0026init=0-241\u0026lmt=1481955959926350\u0026xtags=\u0026itag=278\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D25461019%26dur%3D2163.080%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481955959926350%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D95186DC27360570ED8ABB18BF040C82A3F5665AC.C610F6986D4F428368D8661907E15737E8B9D49C%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D278%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788\u0026index=242-7570\u0026bitrate=113575\u0026size=256x144,clen=34357788\u0026lmt=1481943643400581\u0026index=592-3227\u0026xtags=\u0026bitrate=129899\u0026itag=140\u0026init=0-591\u0026projection_type=1\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D34357788%26dur%3D2163.217%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943643400581%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Daudio%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DB4CBA65321D23B27373D2515465931D9BA4D4BC7.03DC5418F4BC2F675976EA6E108F21D31243D3EA%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D140%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788,clen=24427030\u0026lmt=1481949041329377\u0026index=4452-8204\u0026xtags=\u0026bitrate=110486\u0026itag=171\u0026init=0-4451\u0026projection_type=1\u0026type=audio%2Fwebm%3B+codecs%3D%22vorbis%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D24427030%26dur%3D2163.161%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481949041329377%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Daudio%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DC060FA5AA4FB9F8E237C19488AEAEA14141813E4.0993A014EAEC6BE53972603D90E3CEBCA5554D4D%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D171%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788,clen=13766946\u0026lmt=1481949083496140\u0026index=272-3957\u0026xtags=\u0026bitrate=54688\u0026itag=249\u0026init=0-271\u0026projection_type=1\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D13766946%26dur%3D2163.161%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481949083496140%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Daudio%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D2CBEA7FE841EA28065046C16C862BF32D6494DC7.0ABC41B9701A675B69EEEE0E2C159ADD613526A8%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D249%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788,clen=17081923\u0026lmt=1481949029425570\u0026index=272-3961\u0026xtags=\u0026bitrate=71928\u0026itag=250\u0026init=0-271\u0026projection_type=1\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D17081923%26dur%3D2163.161%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481949029425570%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Daudio%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D6F249CD541194CDA184F9DC5B39C97DE56756ECB.7DD629624153241F89A16A8C0306EDDB08FEFBD8%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D250%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788,clen=30808127\u0026lmt=1481949003465033\u0026index=272-4056\u0026xtags=\u0026bitrate=128114\u0026itag=251\u0026init=0-271\u0026projection_type=1\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D30808127%26dur%3D2163.161%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481949003465033%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Daudio%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D42CC0197B1C10CFD108DCA879924363458E96D80.8E0E402AF29731978F454D87BF82BBDFE98BCC17%26requiressl%3Dyes%26keepalive%3Dyes%26itag%3D251%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788","idpj":"0","iurlmq":"https:\/\/i.ytimg.com\/vi\/TNNksZ297Xg\/hqdefault.jpg?custom=true\u0026w=320\u0026h=180\u0026stc=true\u0026jpg444=true\u0026jpgq=90\u0026sp=68\u0026sigh=cBR5LnUrPtrg2iJQhDbsUmauB7g","vm":"CAEQAA","enablecsi":"1","ismb":"20940000","itct":"CAMQu2kiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0=","loaderUrl":"https:\/\/www.youtube.com\/watch?v=TNNksZ297Xg","atc":"a=3\u0026b=lv0kmYlMfmd3JCJZJnFc6a2dOs0\u0026c=1481967188\u0026d=1\u0026e=TNNksZ297Xg\u0026c3a=14\u0026c1a=1\u0026c6a=1\u0026hh=19V2dLo8J9YCy0uF7kwy5V2zQjo","keywords":"5250492375001,Kompas,Indonesia,Ahok,Rosianna Silalahi,kompas tv,anies baswedan,Djarot Saiful Hidayat,folder_rosi,youtube,KCM,pilkada 2017,sandiaga uno,basuki tjahaja purnama","loudness":"-18.6590003967","apiary_host_firstparty":"","probe_url":"https:\/\/r2---sn-aiglln7z.googlevideo.com\/videogoodput?id=o-AD4hTm1VbQLNcYDFK9-XmeDbhvBkuTLLI5q9_92Xkrla\u0026source=goodput\u0026range=0-4999\u0026expire=1481970788\u0026ip=85.144.105.61\u0026ms=pm\u0026mm=35\u0026pl=24\u0026nh=IgpwZjAxLmxocjI1KgwxOTUuNTkuNzcuNDU\u0026sparams=id,source,range,expire,ip,ms,mm,pl,nh\u0026signature=0CE2DB2228CD59E9FA8E3744F61539FEC73E1CB6.54567FD086197A0D37D54EB8E360951C964E467A\u0026key=cms1","length_seconds":"2163","eventid":"VAZVWMXUEtKM1gKGmJXwCw","enablejsapi":"1","ucid":"UC5BMIWZe9isJXLZZWPWvBlg","storyboard_spec":"https:\/\/i9.ytimg.com\/sb\/TNNksZ297Xg\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#23OODpq2BuzFrhVCBqqzavfvSPQ|80#45#218#10#10#10000#M$M#xEs4Adv7GopzICZyBWMhZ_TROM0|160#90#218#5#5#10000#M$M#cP4F-uLi1UllOcLEvPwSNLsK03s","allow_ratings":"1"},"min_version":"8.0.0","assets":{"js":"\/\/s.ytimg.com\/yts\/jsbin\/player-nl_NL-vflAcQ7-G\/base.js","css":"\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflSGHCwJ.css"},"messages":{"player_fallback":["Je hebt Adobe Flash Player of een browser met HTML5-ondersteuning nodig om video's te kunnen afspelen. \u003ca href=\"https:\/\/get.adobe.com\/flashplayer\/\"\u003eDownload de meest recente Flash Player\u003c\/a\u003e \u003ca href=\"\/html5\"\u003eMeer informatie over het upgraden naar een HTML5-browser\u003c\/a\u003e"]},"url_v9as2":"","sts":17149,"html5":true};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};(function() {if (!!window.yt && yt.player && yt.player.Application) {ytplayer.load();}}());</script>
+
+
+    <div id="watch-queue-mole" class="video-mole mole-collapsed hid"><div id="watch-queue" class="watch-playlist player-height"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">Weergavewachtrij</h3><h3 class="tv-queue-title">Wachtrij</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">Weergavewachtrij</span><span class="tv-queue-title">Wachtrij</span></div></div>  <span class="dark-overflow-action-menu">
+    
+    
+    <button aria-expanded="false" aria-label="Acties voor de wachtrij" type="button" onclick=";return false;" class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" aria-haspopup="true" ><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu" aria-haspopup="true"><li role="menuitem"><span onclick=";return false;" data-action="remove-all" class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" >Alles verwijderen</span></li><li role="menuitem"><span onclick=";return false;" data-action="disconnect" class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" >Ontkoppelen</span></li></ul></button>
+  </span>
+  <div class="watch-queue-controls">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Vorige video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Afspelen"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="Onderbreken"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Volgende video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button>
+  </div>
+</div><div class="autoplay-dismiss-bar fade-out"><span class="autoplay-dismiss-title-label">De volgende video begint</span><span><button class="yt-uix-button yt-uix-button-size-default autoplay-dismiss-button yt-uix-tooltip" type="button" onclick=";return false;" title="stoppen"><span class="yt-uix-button-content">stoppen</span></button></span></div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><div class="yt-uix-scroller playlist-videos-list"><ol class="watch-queue-items-list" data-scroll-action="yt.www.watchqueue.loadThumbnails">  <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+</ol><div class="autoplay-control-container yt-uix-scroller-scroll-unit hid">  <div class="autoplay-control-bar">
+    <label class="autoplay-label" for=autoplay-toggle-id></label>
+    <label class="yt-uix-form-input-checkbox-container yt-uix-form-input-container yt-uix-form-input-paper-toggle-container "><input class="yt-uix-form-input-checkbox" type="checkbox" id="autoplay-toggle-id"/><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-bar"></div><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-button"></div></label>
+  </div>
+</div><div class="up-next-item-container hid"></div></div></div></div>  <div class="hid">
+    <div id="watch-queue-title-msg">
+Weergavewachtrij
+    </div>
+
+    <div id="tv-queue-title-msg">Wachtrij</div>
+
+    <div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+
+    <div id="watch-queue-loading-template">
+      <!--
+          <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+      -->
+    </div>
+  </div>
+</div></div>
+    <div id="player-playlist" class="  content-alignment    watch-player-playlist  ">
+          
+
+    </div>
+
+  </div>
+
+  <div class="clear"></div>
+</div><div id="content" class="  content-alignment" role="main">      <div id="placeholder-player">
+    <div class="player-api player-width player-height"></div>
+  </div>
+
+  <div id="watch7-container" class="">
+      <div id="player-messages">
+  </div>
+    
+  <div id="watch7-main-container">
+    <div id="watch7-main" class="clearfix">
+      <div id="watch7-preview" class="player-width player-height hid">
+      </div>
+      <div id="watch7-content" class="watch-main-col " itemscope itemid="" itemtype="http://schema.org/VideoObject"
+      >
+              <link itemprop="url" href="https://www.youtube.com/watch?v=TNNksZ297Xg">
+    <meta itemprop="name" content="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+    <meta itemprop="description" content="Adu gagasan para kandidat pemimpin DKI Jakarta, tersaji di Kompas TV. Dua pasangan calon gubernur dan calon wakil gubernur berdebat, serta saling mempromosik...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UC5BMIWZe9isJXLZZWPWvBlg">
+      <meta itemprop="videoId" content="TNNksZ297Xg">
+
+      <meta itemprop="duration" content="PT36M4S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/KompasTVNews">
+        </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://plus.google.com/117248799718956349315">
+        </span>
+
+    <link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/TNNksZ297Xg/hqdefault.jpg">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="https://i.ytimg.com/vi/TNNksZ297Xg/hqdefault.jpg">
+      <meta itemprop="width" content="480">
+      <meta itemprop="height" content="360">
+    </span>
+
+      <link itemprop="embedURL" href="https://www.youtube.com/embed/TNNksZ297Xg">
+      <meta itemprop="playerType" content="HTML5 Flash">
+      <meta itemprop="width" content="640">
+      <meta itemprop="height" content="360">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+      <meta itemprop="interactionCount" content="296">
+      <meta itemprop="datePublished" content="2016-12-16">
+      <meta itemprop="genre" content="News &amp; Politics">
+
+          
+
+        <div id="watch-header" class="yt-card yt-card-has-padding">
+      <div id="watch7-headline" class="clearfix">
+    <div id="watch-headline-title">
+      <h1 class="watch-title-container" >
+        
+
+
+  <span id="eow-title" class="watch-title" dir="ltr" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 2)
+  </span>
+
+      </h1>
+    </div>
+  </div>
+
+    <div id="watch7-user-header" class=" spf-link ">  <a href="/user/KompasTVNews" class="yt-user-photo yt-uix-sessionlink g-hovercard      spf-link " data-ytid="UC5BMIWZe9isJXLZZWPWvBlg" data-sessionlink="itct=CDAQ4TkiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0" >
+      <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard"
+      data-ytid="UC5BMIWZe9isJXLZZWPWvBlg"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" onload=";__ytRIL(this)" height="48" data-ytimg="1" width="48" alt="KOMPASTV" data-thumb="https://yt3.ggpht.com/-l-pKm_eKi0I/AAAAAAAAAAI/AAAAAAAAAAA/PtFe724LwuY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+
+  </a>
+  <div class="yt-user-info">
+    <a href="/channel/UC5BMIWZe9isJXLZZWPWvBlg" class="g-hovercard yt-uix-sessionlink      spf-link " data-ytid="UC5BMIWZe9isJXLZZWPWvBlg" data-sessionlink="itct=CDAQ4TkiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0" >KOMPASTV</a>
+       
+      <span aria-label="Geverifieerd" data-tooltip-text="Geverifieerd" class="yt-channel-title-icon-verified yt-uix-tooltip yt-sprite"></span>
+  </div>
+<span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer" type="button" onclick=";return false;" aria-busy="false" aria-live="polite" data-channel-external-id="UC5BMIWZe9isJXLZZWPWvBlg" data-href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26continue_action%3DQUFFLUhqblZIR2pHNTBYY08wbWV0MkhSUVNyaUVKSzh5Z3xBQ3Jtc0trdzZPV2o1TzlGdk1jaWVqdDVKWTlyWUU2cmZKc2Y1bUpNN3pKOFNlWFBvNC0wMTB6NkZOdll4UDBxYU9tUW9ubWJLMmliSnRzRDdUeFJwSWJaVGFyWEhpWUZ1SnNmRFNIbkczUmdtR2FmQk5rQUxnVktNcWthVjl1bjNVOXRua0pkbWNDNjhLaUxQQTVtSHQ2RTNleDB5RUxabmlBSW0xVC1zLXZPc3RzeDNQRkthT1FiTlVxTW93OFlaV0xtWWI4a2J6ZTVETFJMMnlIWjNENzRUMVNpRFlKNzl3%26action_handle_signin%3Dtrue%26next%3D%252Fchannel%252FUC5BMIWZe9isJXLZZWPWvBlg%26hl%3Dnl%26feature%3Dsubscribe&amp;service=youtube&amp;hl=nl&amp;uilel=3" data-clicktracking="itct=CDEQmysiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0yBXdhdGNo" data-style-type="branded"><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Abonneren">Abonneren</span><span class="subscribed-label" aria-label="Afmelden">Geabonneerd</span><span class="unsubscribe-label" aria-label="Afmelden">Afmelden</span></span></button><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon yt-uix-subscription-preferences-button" type="button" onclick=";return false;" aria-busy="false" aria-live="polite" aria-role="button" aria-label="Abonnementsvoorkeuren" data-channel-external-id="UC5BMIWZe9isJXLZZWPWvBlg"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences yt-sprite"></span></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count" title="97.983" aria-label="97.983" tabindex="0">97.983</span><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-short-subscriber-count" title="97K" aria-label="97K" tabindex="0">97K</span>  <span class="subscription-preferences-overlay-container">
+    
+  <div class="yt-uix-overlay "  data-overlay-style="primary" data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid ">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+        Bezig...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  </span>
+</span></span></div>
+    <div id="watch8-action-buttons" class="watch-action-buttons clearfix"><div id="watch8-secondary-actions" class="watch-secondary-actions yt-uix-button-group" data-button-toggle-group="optional">    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup yt-uix-clickcard-target addto-button pause-resume-autoplay yt-uix-tooltip" type="button" onclick=";return false;" title="Toevoegen aan" data-position="bottomleft" data-orientation="vertical"><span class="yt-uix-button-content">Toevoegen aan</span></button>
+        <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Wil je hier later nog een keer naar kijken?</h3>
+    <div class="signin-clickcard-message">
+      Log in om deze video toe te voegen aan een afspeellijst.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3D__FEATURE__&amp;service=youtube&amp;hl=nl&amp;uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw"><span class="yt-uix-button-content">Inloggen</span></a>
+  </div>
+
+    </span>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay action-panel-trigger action-panel-trigger-share   yt-uix-tooltip" type="button" onclick=";return false;" title="Delen
+" data-trigger-for="action-panel-share" data-button-toggle="true"><span class="yt-uix-button-content">Delen
+</span></button>
+<div class="yt-uix-menu " >  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay yt-uix-menu-trigger yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Meer acties" aria-label="Action menu." id="action-panel-overflow-button" aria-pressed="false" aria-haspopup="true"><span class="yt-uix-button-content">Meer</span></button>
+<div class="yt-uix-menu-content yt-ui-menu-content yt-uix-menu-content-hidden" role="menu"><ul id="action-panel-overflow-menu">  <li>
+      <span class="yt-uix-clickcard" data-card-class=report-card>
+          <button type="button" class="yt-ui-menu-item has-icon action-panel-trigger action-panel-trigger-report report-button yt-uix-clickcard-target"
+ data-position="topright" data-orientation="horizontal">
+    <span class="yt-ui-menu-item-label">Rapporteren</span>
+  </button>
+
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Wil je een melding indienen over de video?</h3>
+    <div class="signin-clickcard-message">
+      Log in om ongepaste content te melden.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3D__FEATURE__&amp;service=youtube&amp;hl=nl&amp;uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw"><span class="yt-uix-button-content">Inloggen</span></a>
+  </div>
+
+      </span>
+  </li>
+</ul></div></div></div><div id="watch8-sentiment-actions"><div id="watch7-views-info"><div class="watch-view-count">296 weergaven</div>
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 100.0%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 0.0%"></div>
+  </div>
+</div>
+
+
+
+
+
+  <span class="like-button-renderer " data-button-toggle-group="optional" >
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" aria-label="vindt deze video leuk samen met nog 7 anderen" title="Ik vind dit leuk" data-force-position="true" data-orientation="vertical" data-position="bottomright"><span class="yt-uix-button-content">7</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Vind je dit een leuke video?</h3>
+    <div class="signin-clickcard-message">
+      Log in om je mening te geven.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3D__FEATURE__&amp;service=youtube&amp;hl=nl&amp;uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw"><span class="yt-uix-button-content">Inloggen</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" aria-label="vindt deze video leuk samen met nog 7 anderen" title="Vind ik niet meer leuk" data-force-position="true" data-orientation="vertical" data-position="bottomright"><span class="yt-uix-button-content">8</span></button>
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" aria-label="vindt deze video niet leuk samen met nog 0 anderen" title="Ik vind dit niet leuk" data-force-position="true" data-orientation="vertical" data-position="bottomright"><span class="yt-uix-button-content">0</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Vind je dit geen leuke video?</h3>
+    <div class="signin-clickcard-message">
+      Log in om je mening te geven.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3D__FEATURE__&amp;service=youtube&amp;hl=nl&amp;uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw"><span class="yt-uix-button-content">Inloggen</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" aria-label="vindt deze video niet leuk samen met nog 0 anderen" title="Ik vind dit niet leuk" data-force-position="true" data-orientation="vertical" data-position="bottomright"><span class="yt-uix-button-content">1</span></button>
+    </span>
+  </span>
+</div></div>
+  </div>
+
+
+
+  
+
+      <div id="watch-action-panels" class="watch-action-panels yt-uix-button-panel hid yt-card yt-card-has-padding">
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid"
+      data-auth-required="true"
+  >
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+    
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required">
+    <strong>Beoordelingen zijn beschikbaar wanneer de video is verhuurd.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      Deze functie is momenteel niet beschikbaar. Probeer het later opnieuw.
+    </div>
+  </div>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-button-opacity yt-uix-close" type="button" onclick=";return false;" aria-label="Sluiten" id="action-panel-dismiss" data-close-parent-id="watch8-action-panels"></button>
+  </div>
+
+
+
+  <div id="action-panel-details" class="action-panel-content yt-uix-expander yt-card yt-card-has-padding yt-uix-expander-collapsed"><div id="watch-description" class="yt-uix-button-panel"><div id="watch-description-content"><div id="watch-description-clip"><div id="watch-uploader-info"><strong class="watch-time-text">Gepubliceerd op 16 dec. 2016</strong></div><div id="watch-description-text" class=""><p id="eow-description" class="" >Adu gagasan para kandidat pemimpin DKI Jakarta, tersaji di Kompas TV. Dua pasangan calon gubernur dan calon wakil gubernur berdebat, serta saling mempromosikan visi-misi masing-masing.</p></div>  <div id="watch-description-extras">
+    <ul class="watch-extras-section">
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Categorie
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li><a href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw" class="g-hovercard yt-uix-sessionlink      spf-link " data-ytid="UCYfdidRxbB8Qhf0Nx7ioOYw" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw" >Nieuws &amp; politiek</a></li>
+    </ul>
+  </li>
+
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Licentie
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li>Standaard YouTube-licentie</li>
+    </ul>
+  </li>
+
+    </ul>
+  </div>
+</div></div></div>  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-collapsed-body yt-uix-gen204" type="button" onclick=";return false;" data-gen204="feature=watch-show-more-metadata"><span class="yt-uix-button-content">Meer weergeven</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-body" type="button" onclick=";return false;"><span class="yt-uix-button-content">Minder weergeven</span></button>
+</div>
+
+
+
+
+        <div id="watch-discussion" class="branded-page-box yt-card">
+          <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+    </div>
+
+  </div>
+
+
+      </div>
+      <div id="watch7-sidebar" class="watch-sidebar">
+            <div id="placeholder-playlist" class="watch-playlist player-height  hid"></div>
+
+
+
+  <div id="watch7-sidebar-contents" class="watch-sidebar-gutter   yt-card yt-card-has-padding    yt-uix-expander yt-uix-expander-collapsed">
+      <div id="watch7-sidebar-offer">
+        
+      </div>
+
+    <div id="watch7-sidebar-ads">
+      
+    </div>
+    <div id="watch7-sidebar-modules">
+            <div class="watch-sidebar-section">
+    <div class="autoplay-bar">
+      <div class="checkbox-on-off">
+       <label for="autoplay-checkbox">Autoplay</label>
+       <span class="autoplay-hovercard yt-uix-hovercard">
+          <span class="autoplay-info-icon yt-uix-button-opacity yt-uix-hovercard-target yt-sprite" data-position="topright" data-orientation="vertical"></span>
+<span class="yt-uix-hovercard-content">Wanneer autoplay is ingeschakeld, wordt een aanbevolen video automatisch als volgende afgespeeld.</span>        </span>
+          <span class="yt-uix-checkbox-on-off ">
+<input id="autoplay-checkbox" class="" type="checkbox"  checked><label for="autoplay-checkbox" id="autoplay-checkbox-label"><span class="checked"></span><span class="toggle"></span><span class="unchecked"></span></label>  </span>
+
+      </div>
+      <h4 class="watch-sidebar-head">
+        Volgende
+      </h4>
+        <div class="watch-sidebar-body">
+    <ul class="video-list">
+        <li class="video-list-item related-list-item show-video-time">
+          
+
+    <div class="content-wrapper">
+    <a href="/watch?v=iK0gmZrK9k8" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCoQpDAYACITCMXOz_71-tACFVKGVQodBkwFvij4HTIHYXV0b25hdkj42vftmZbZ6Uw"  rel="spf-prefetch" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 6)" data-visibility-tracking="CCoQpDAYACITCMXOz_71-tACFVKGVQodBkwFvij4HUDP7KvWmZPI1ogB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-978984">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 6)
+  </span>
+  <span class="accessible-description" id="description-id-978984">
+     - Duur: 33:26.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="autonav" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">190 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=iK0gmZrK9k8" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCoQpDAYACITCMXOz_71-tACFVKGVQodBkwFvij4HTIHYXV0b25hdkj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCoQpDAYACITCMXOz_71-tACFVKGVQodBkwFvij4HUDP7KvWmZPI1ogB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="iK0gmZrK9k8"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/iK0gmZrK9k8/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=STDOtZ6I2gTmEinE1-0A0JFM_hc" ></span></a>
+
+          <span class="video-time">
+      33:26
+    </span>
+
+  </div>
+
+
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+        
+          <div class="watch-sidebar-section">
+      <hr class="watch-sidebar-separation-line">
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+          <li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=IEjNpbMMq0o" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCgQpDAYASITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 4)" data-visibility-tracking="CCgQpDAYASITCMXOz_71-tACFVKGVQodBkwFvij4HUDK1rKY27SzpCA=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-119329">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 4)
+  </span>
+  <span class="accessible-description" id="description-id-119329">
+     - Duur: 22:13.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">145 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=IEjNpbMMq0o" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCgQpDAYASITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCgQpDAYASITCMXOz_71-tACFVKGVQodBkwFvij4HUDK1rKY27SzpCA=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="IEjNpbMMq0o"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/IEjNpbMMq0o/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=VupoRM5aEPFl72GieRq1eEpZXv8" ></span></a>
+
+          <span class="video-time">
+      22:13
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=8nf_HOHZGI4" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCcQpDAYAiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 5)" data-visibility-tracking="CCcQpDAYAiITCMXOz_71-tACFVKGVQodBkwFvij4HUCOseSOzuP_u_IB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-167690">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 5)
+  </span>
+  <span class="accessible-description" id="description-id-167690">
+     - Duur: 19:51.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">193 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=8nf_HOHZGI4" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCcQpDAYAiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCcQpDAYAiITCMXOz_71-tACFVKGVQodBkwFvij4HUCOseSOzuP_u_IB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="8nf_HOHZGI4"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/8nf_HOHZGI4/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=iLDSc67wHLgAfMFhsGvMKubTt3g" ></span></a>
+
+          <span class="video-time">
+      19:51
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=1NG19JyvyiE" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCYQpDAYAyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="DEBAT SERU AHOK VS ANIES DI KOMPAS TV, Ahok Diserang Terus Sampai  Membuat Sistem Baru" data-visibility-tracking="CCYQpDAYAyITCMXOz_71-tACFVKGVQodBkwFvij4HUChlL_lyb7t6NQB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-187920">
+    DEBAT SERU AHOK VS ANIES DI KOMPAS TV, Ahok Diserang Terus Sampai  Membuat Sistem Baru
+  </span>
+  <span class="accessible-description" id="description-id-187920">
+     - Duur: 18:08.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCBAouDwrt2FVz5JbbrvQUQA">mulki ikram</span></span>
+  <span class="stat view-count">40.182 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=1NG19JyvyiE" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCYQpDAYAyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCYQpDAYAyITCMXOz_71-tACFVKGVQodBkwFvij4HUChlL_lyb7t6NQB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="1NG19JyvyiE"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/1NG19JyvyiE/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=K9m6MszcHbx9ushrUBdvGzWsZW8" ></span></a>
+
+          <span class="video-time">
+      18:08
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=_n7VPmVnKRE" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCUQpDAYBCITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 1)" data-visibility-tracking="CCUQpDAYBCITCMXOz_71-tACFVKGVQodBkwFvij4HUCR0pyr5qe1v_4B" >
+  <span dir="ltr" class="title" aria-describedby="description-id-964589">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 1)
+  </span>
+  <span class="accessible-description" id="description-id-964589">
+     - Duur: 10:29.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">120 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=_n7VPmVnKRE" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCUQpDAYBCITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCUQpDAYBCITCMXOz_71-tACFVKGVQodBkwFvij4HUCR0pyr5qe1v_4B" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="_n7VPmVnKRE"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/_n7VPmVnKRE/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=doEyXycX6CI1hsKMCoYw6nmRUF8" ></span></a>
+
+          <span class="video-time">
+      10:29
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=oB0Ya-qQ1as" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCQQpDAYBSITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="Debat Cagub. Ahok vs Anis. di &#39;Rosi&#39; Kompas.tv" data-visibility-tracking="CCQQpDAYBSITCMXOz_71-tACFVKGVQodBkwFvij4HUCrq8PUvo3GjqAB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-458008">
+    Debat Cagub. Ahok vs Anis. di &#39;Rosi&#39; Kompas.tv
+  </span>
+  <span class="accessible-description" id="description-id-458008">
+     - Duur: 36:19.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCA0Ui2RO6gQgdrNz-D3k7yA">Nova Ryantie</span></span>
+  <span class="stat view-count">15.642 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=oB0Ya-qQ1as" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCQQpDAYBSITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCQQpDAYBSITCMXOz_71-tACFVKGVQodBkwFvij4HUCrq8PUvo3GjqAB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="oB0Ya-qQ1as"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/oB0Ya-qQ1as/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=QPAhIP_qyTwPPCtuYRNdiXMkc-Y" ></span></a>
+
+          <span class="video-time">
+      36:19
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=SRRlpDihpkk" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCMQpDAYBiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Full Debat Kandidat Pemimpin Jakarta di Rosi" data-visibility-tracking="CCMQpDAYBiITCMXOz_71-tACFVKGVQodBkwFvij4HUDJzIbFw7SZikk=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-331639">
+    Full Debat Kandidat Pemimpin Jakarta di Rosi
+  </span>
+  <span class="accessible-description" id="description-id-331639">
+     - Duur: 3:58:11.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">134.844 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=SRRlpDihpkk" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCMQpDAYBiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCMQpDAYBiITCMXOz_71-tACFVKGVQodBkwFvij4HUDJzIbFw7SZikk=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="SRRlpDihpkk"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/SRRlpDihpkk/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=VWXNYuo_uc3RXxpdySsV-o5EUTs" ></span></a>
+
+          <span class="video-time">
+      3:58:11
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=4cBkodWYboY" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCIQpDAYByITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 3)" data-visibility-tracking="CCIQpDAYByITCMXOz_71-tACFVKGVQodBkwFvij4HUCG3eGsnZSZ4OEB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-376596">
+    Rosi &amp; Kandidat Pemimpin Jakarta (Bag. 3)
+  </span>
+  <span class="accessible-description" id="description-id-376596">
+     - Duur: 8:49.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">167 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=4cBkodWYboY" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCIQpDAYByITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCIQpDAYByITCMXOz_71-tACFVKGVQodBkwFvij4HUCG3eGsnZSZ4OEB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="4cBkodWYboY"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/4cBkodWYboY/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=xen7be2_m_IY5mBA-9v3txA2NcY" ></span></a>
+
+          <span class="video-time">
+      8:49
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=ggFW9hCmIYo" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCEQpDAYCCITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p1" data-visibility-tracking="CCEQpDAYCCITCMXOz_71-tACFVKGVQodBkwFvij4HUCKw5iF4d7VgIIB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-720756">
+    Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p1
+  </span>
+  <span class="accessible-description" id="description-id-720756">
+     - Duur: 17:36.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCQ9Tqa2uL4fAs3nrXIg5VsQ">Aldrichenko News Channel</span></span>
+  <span class="stat view-count">10.624 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=ggFW9hCmIYo" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCEQpDAYCCITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCEQpDAYCCITCMXOz_71-tACFVKGVQodBkwFvij4HUCKw5iF4d7VgIIB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="ggFW9hCmIYo"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/ggFW9hCmIYo/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=kck56ywQVW7oHhIMF7a35apbPOc" ></span></a>
+
+          <span class="video-time">
+      17:36
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=q_YOoL9kbdM" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCAQpDAYCSITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p2" data-visibility-tracking="CCAQpDAYCSITCMXOz_71-tACFVKGVQodBkwFvij4HUDT25H7i9SD-6sB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-657474">
+    Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p2
+  </span>
+  <span class="accessible-description" id="description-id-657474">
+     - Duur: 36:19.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCQ9Tqa2uL4fAs3nrXIg5VsQ">Aldrichenko News Channel</span></span>
+  <span class="stat view-count">35.027 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=q_YOoL9kbdM" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CCAQpDAYCSITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CCAQpDAYCSITCMXOz_71-tACFVKGVQodBkwFvij4HUDT25H7i9SD-6sB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="q_YOoL9kbdM"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/q_YOoL9kbdM/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=fELWbOP7qWC94dyQadyKkWNeyT0" ></span></a>
+
+          <span class="video-time">
+      36:19
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=m3xasKpgiug" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB8QpDAYCiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Mario Teguh Menjawab Ario Kiswinar (Bag. 1)" data-visibility-tracking="CB8QpDAYCiITCMXOz_71-tACFVKGVQodBkwFvij4HUDolYLTitaWvpsB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-742329">
+    Mario Teguh Menjawab Ario Kiswinar (Bag. 1)
+  </span>
+  <span class="accessible-description" id="description-id-742329">
+     - Duur: 16:14.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">1.705.957 weergaven</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=m3xasKpgiug" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB8QpDAYCiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CB8QpDAYCiITCMXOz_71-tACFVKGVQodBkwFvij4HUDolYLTitaWvpsB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="m3xasKpgiug"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/m3xasKpgiug/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=4aOAbecg3W4IzfbL2oY4zYsB9f4" ></span></a>
+
+          <span class="video-time">
+      16:14
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=gLZPoHO2a9s" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB4QpDAYCyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="rosi dan kandidat pemimpin jakarta 2" data-visibility-tracking="CB4QpDAYCyITCMXOz_71-tACFVKGVQodBkwFvij4HUDb19mdh_ST24AB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-738825">
+    rosi dan kandidat pemimpin jakarta 2
+  </span>
+  <span class="accessible-description" id="description-id-738825">
+     - Duur: 31:49.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UC8YjFovuR5U4nN2Vs9iGKGw">Pande Parwata</span></span>
+  <span class="stat view-count">6 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=gLZPoHO2a9s" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB4QpDAYCyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CB4QpDAYCyITCMXOz_71-tACFVKGVQodBkwFvij4HUDb19mdh_ST24AB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="gLZPoHO2a9s"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/gLZPoHO2a9s/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=ufT59-hgQqH1XHsxRtLgS5wo67g" ></span></a>
+
+          <span class="video-time">
+      31:49
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=9etQGOlHmOY" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB0QpDAYDCITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="rosi dan kandidat pemimpin jakarta 3" data-visibility-tracking="CB0QpDAYDCITCMXOz_71-tACFVKGVQodBkwFvij4HUDmsZ7KjoPU9fUB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-765399">
+    rosi dan kandidat pemimpin jakarta 3
+  </span>
+  <span class="accessible-description" id="description-id-765399">
+     - Duur: 32:17.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UC8YjFovuR5U4nN2Vs9iGKGw">Pande Parwata</span></span>
+  <span class="stat view-count">Geen weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=9etQGOlHmOY" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CB0QpDAYDCITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CB0QpDAYDCITCMXOz_71-tACFVKGVQodBkwFvij4HUDmsZ7KjoPU9fUB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="9etQGOlHmOY"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/9etQGOlHmOY/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=k6JuA3FKKVzaCUkp9-pRL-Elh1Y" ></span></a>
+
+          <span class="video-time">
+      32:17
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=YJVlp3G3SsA" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBwQpDAYDSITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Tingginya Permintaan, Harga Bahan Pokok Terus Naik" data-visibility-tracking="CBwQpDAYDSITCMXOz_71-tACFVKGVQodBkwFvij4HUDAld2N97TZymA=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-480130">
+    Tingginya Permintaan, Harga Bahan Pokok Terus Naik
+  </span>
+  <span class="accessible-description" id="description-id-480130">
+     - Duur: 2:28.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">84 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=YJVlp3G3SsA" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBwQpDAYDSITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBwQpDAYDSITCMXOz_71-tACFVKGVQodBkwFvij4HUDAld2N97TZymA=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="YJVlp3G3SsA"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/YJVlp3G3SsA/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=q2fxDyTLicm_QaydFJDgkoMKlHI" ></span></a>
+
+          <span class="video-time">
+      2:28
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=uQmeFgkkEWU" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBsQpDAYDiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Mengenal Komunitas &quot;Paddock Mini Remote Contol&quot; (Bag. 1)" data-visibility-tracking="CBsQpDAYDiITCMXOz_71-tACFVKGVQodBkwFvij4HUDlopDJ4MLnhLkB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-424702">
+    Mengenal Komunitas &quot;Paddock Mini Remote Contol&quot; (Bag. 1)
+  </span>
+  <span class="accessible-description" id="description-id-424702">
+     - Duur: 9:53.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">75 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=uQmeFgkkEWU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBsQpDAYDiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBsQpDAYDiITCMXOz_71-tACFVKGVQodBkwFvij4HUDlopDJ4MLnhLkB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="uQmeFgkkEWU"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/uQmeFgkkEWU/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=OPNaD4yANBvCsVfrmyp_Wl-pca8" ></span></a>
+
+          <span class="video-time">
+      9:53
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=RlIjqsgJPQc" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBoQpDAYDyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="Rosi dan Kandidat Pemimpin Jakarta Kompas TV Part 2!!" data-visibility-tracking="CBoQpDAYDyITCMXOz_71-tACFVKGVQodBkwFvij4HUCH-qTArPWIqUY=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-62320">
+    Rosi dan Kandidat Pemimpin Jakarta Kompas TV Part 2!!
+  </span>
+  <span class="accessible-description" id="description-id-62320">
+     - Duur: 8:03.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCPTt5iZ4ryfm7I5zEs-g8fw">SUDUT PANDANG Channel</span></span>
+  <span class="stat view-count">76 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=RlIjqsgJPQc" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBoQpDAYDyITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBoQpDAYDyITCMXOz_71-tACFVKGVQodBkwFvij4HUCH-qTArPWIqUY=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="RlIjqsgJPQc"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/RlIjqsgJPQc/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=AifXyo9mrsfnz7cmBr8kG1NepEY" ></span></a>
+
+          <span class="video-time">
+      8:03
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=PXFhc9ffQZk" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBkQpDAYECITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" title="Pasca Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p3" data-visibility-tracking="CBkQpDAYECITCMXOz_71-tACFVKGVQodBkwFvij4HUCZg_2-va7YuD0=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-367489">
+    Pasca Rosi dan Kandidat Pemimpin Jakarta Kompas TV, 15 Desember 2016 p3
+  </span>
+  <span class="accessible-description" id="description-id-367489">
+     - Duur: 5:40.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCQ9Tqa2uL4fAs3nrXIg5VsQ">Aldrichenko News Channel</span></span>
+  <span class="stat view-count">928 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=PXFhc9ffQZk" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBkQpDAYECITCMXOz_71-tACFVKGVQodBkwFvij4HTIHcmVsYXRlZEj42vftmZbZ6Uw"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBkQpDAYECITCMXOz_71-tACFVKGVQodBkwFvij4HUCZg_2-va7YuD0=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="PXFhc9ffQZk"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/PXFhc9ffQZk/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=Fo2e02rz6W7Y-qhJvbB5BwhB7qA" ></span></a>
+
+          <span class="video-time">
+      5:40
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Il9bDBvOBNU" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBgQpDAYESITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Indonesia Bahas Taktik Meredam Serangan Thailand" data-visibility-tracking="CBgQpDAYESITCMXOz_71-tACFVKGVQodBkwFvij4HUDVibjeweHWryI=" >
+  <span dir="ltr" class="title" aria-describedby="description-id-518726">
+    Indonesia Bahas Taktik Meredam Serangan Thailand
+  </span>
+  <span class="accessible-description" id="description-id-518726">
+     - Duur: 1:59.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">171 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Il9bDBvOBNU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBgQpDAYESITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBgQpDAYESITCMXOz_71-tACFVKGVQodBkwFvij4HUDVibjeweHWryI=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="Il9bDBvOBNU"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/Il9bDBvOBNU/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=tqp-0CNw_9iQwpD7PHti24TOP3w" ></span></a>
+
+          <span class="video-time">
+      1:59
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=qfK5ih_oh7s" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBcQpDAYEiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Indonesia Raja Gol di Babak Kedua selama AFF 2016" data-visibility-tracking="CBcQpDAYEiITCMXOz_71-tACFVKGVQodBkwFvij4HUC7j6L_obGu-akB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-14063">
+    Indonesia Raja Gol di Babak Kedua selama AFF 2016
+  </span>
+  <span class="accessible-description" id="description-id-14063">
+     - Duur: 1:38.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">3.207 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=qfK5ih_oh7s" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBcQpDAYEiITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBcQpDAYEiITCMXOz_71-tACFVKGVQodBkwFvij4HUC7j6L_obGu-akB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="qfK5ih_oh7s"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/qfK5ih_oh7s/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=etOnxRkt2sg7hCFOUvt-KqZYiCU" ></span></a>
+
+          <span class="video-time">
+      1:38
+    </span>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=xsCZw01-V9s" class=" content-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBYQpDAYEyITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" title="Pasca-Gempa Aceh, Pemerintah Segera Rekonstruksi Bangunan" data-visibility-tracking="CBYQpDAYEyITCMXOz_71-tACFVKGVQodBkwFvij4HUDbr_nrtLim4MYB" >
+  <span dir="ltr" class="title" aria-describedby="description-id-749651">
+    Pasca-Gempa Aceh, Pemerintah Segera Rekonstruksi Bangunan
+  </span>
+  <span class="accessible-description" id="description-id-749651">
+     - Duur: 0:58.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UC5BMIWZe9isJXLZZWPWvBlg">KOMPASTV</span></span>
+  <span class="stat view-count">44 weergaven<ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >Nieuw</span></li></ul></span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=xsCZw01-V9s" class=" vve-check thumb-link spf-link  yt-uix-sessionlink       spf-link " data-sessionlink="itct=CBYQpDAYEyITCMXOz_71-tACFVKGVQodBkwFvij4HTIGcmVsbWZ1SPja9-2ZltnpTA"  rel="spf-prefetch" tabindex="-1" data-visibility-tracking="CBYQpDAYEyITCMXOz_71-tACFVKGVQodBkwFvij4HUDbr_nrtLim4MYB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related" tabindex="0" data-vid="xsCZw01-V9s"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" height="94" style="top: 0px" width="168" alt="" aria-hidden="true" data-thumb="https://i.ytimg.com/vi/xsCZw01-V9s/hqdefault.jpg?custom=true&amp;w=168&amp;h=94&amp;stc=true&amp;jpg444=true&amp;jpgq=90&amp;sp=68&amp;sigh=FiXzmi803Lo0LahJgMyvuoa7YGQ" ></span></a>
+
+          <span class="video-time">
+      0:58
+    </span>
+
+  </div>
+
+</li>
+                <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+Meer suggesties laden...
+    </li>
+  </div>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander" type="button" onclick=";return false;" id="watch-more-related-button" data-button-action="yt.www.watch.related.loadMore" data-continuation="CBQSFhILVE5Oa3NaMjk3WGfAAQDIAQDgAQEYACrWAQjP7KvWmZPI1ogBCMrWspjbtLOkIAiOseSOzuP_u_IBCKGUv-XJvu3o1AEIkdKcq-antb_-AQirq8PUvo3GjqABCMnMhsXDtJmKSQiG3eGsnZSZ4OEBCIrDmIXh3tWAggEI09uR-4vUg_urAQjolYLTitaWvpsBCNvX2Z2H9JPbgAEI5rGeyo6D1PX1AQjAld2N97TZymAI5aKQyeDC54S5AQiH-qTArPWIqUYImYP9vr2u2Lg9CNWJuN7B4davIgi7j6L_obGu-akBCNuv-eu0uKbgxgE%3D"><span class="yt-uix-button-content">Meer weergeven</span></button>
+
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="watch7-hidden-extras">
+      <div style="visibility: hidden; height: 0px; padding: 0px; overflow: hidden;">
+  </div>
+
+  </div>
+
+
+  </div>
+
+</div></div></div>    <div class="yt-dialog hid " id="yt-consent-dialog">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="yt-consent-dialog-content">
+    <iframe id="yt-consent-iframe" data-src="https://consent.google.com/?l=0&amp;continue=https%3A%2F%2Fwww.youtube.com&amp;m=0&amp;gl=NL&amp;wp=71&amp;pc=yt&amp;if=1&amp;origin=https%3A%2F%2Fwww.youtube.com&amp;hl=nl"></iframe>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+        Bezig...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+</div>  <div id="footer-container" class="yt-base-gutter force-layer"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="YouTube-startpagina" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw&amp;ved=CAEQpmEiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0" class="yt-uix-sessionlink"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-action="yt.www.picker.load" data-picker-key="language" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Taal:
+  </span>
+  Nederlands
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-action="yt.www.picker.load" data-picker-key="country" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Contentlocatie:
+  </span>
+  Nederland
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-action="yt.www.picker.load" data-picker-key="safetymode" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Beperkte modus:
+  </span>
+Uit
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=VAZVWMXUEtKM1gKGmJXwCw"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">Geschiedenis</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" data-ghelp-anchor="google-help" id="google-help" data-ghelp-tracking-param="" data-feedback-product-id="59" data-load-chat-support=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Help
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/nl/">Over</a></li>
+  <li><a href="//www.youtube.com/yt/press/nl/">Pers</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/nl/">Auteursrecht</a></li>
+  <li><a href="//www.youtube.com/yt/creators/nl/">Videomakers</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/nl/">Adverteren</a></li>
+  <li><a href="//www.youtube.com/yt/dev/nl/">Ontwikkelaars</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Voorwaarden</a></li>
+  <li><a href="https://www.google.nl/intl/nl/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/nl/">
+Beleid &amp; veiligheid
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=nl" onclick="return yt.www.feedback.start(59);" class="reportbug">Feedback verzenden</a></li>
+  <li>
+    <a href="/testtube">Nieuwe functies testen</a>
+  </li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Laden...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+        Bezig...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="hidden-component-template-wrapper" class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252Fwatch%253Fv%253DTNNksZ297Xg%26hl%3Dnl%26feature%3Dplaylist&amp;service=youtube&amp;hl=nl&amp;uilel=3" class="sign-in-link">Log in</a> om dit toe te voegen aan de afspeellijst &#39;Later bekijken&#39;
+
+    </div>
+<div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">  <div class="hide-on-create-pl-panel">
+    <h3>
+Toevoegen aan
+    </h3>
+  </div>
+  <div class="add-to-widget">
+      <p class="yt-spinner ">
+        <span title="Pictogram laden" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+        Afspeellijsten laden...
+    </span>
+  </p>
+
+  </div>
+</div></div>    <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['request-headers'] = {'X-YouTube-Identity-Token': null};ytspf.config['experimental-request-headers'] = ytspf.config['request-headers'];ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;ytspf.config['animation-duration'] = 0;</script>
+  <script src="//s.ytimg.com/yts/jsbin/spf-vfl-Bavno/spf.js" type="text/javascript" name="spf/spf"></script>
+  <script src="//s.ytimg.com/yts/jsbin/www-en_US-vfloDMEq8/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '//s.ytimg.com/yts/jsbin/www-en_US-vfloDMEq8/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/instant": "www/common", "www/legomap": "www/common", "www/live_chat": "www/common", "www/live_chat_moderation": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/channels_edit": "www/channels", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_live": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "TNNksZ297Xg",
+      'THUMB_LOADER_PAUSE_MS': 0,
+      'THUMB_LOADER_GROUP_PX': 400,
+      'THUMB_LOADER_IGNORE_FOLD': false,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': true,
+      'IS_UNAVAILABLE_PAGE': false,
+      'DROPDOWN_ARROW_URL': "https:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif",
+      'AUTONAV_EXTRA_CHECK': false,
+
+      'JS_PAGE_MODULES': [
+        'www/watch',
+        'www/ypc_bootstrap',
+          'www/watch_autoplayrenderer',
+        ''       ],
+
+
+      'REPORTVIDEO_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-reportvideo-vflt8hxlM\/www-reportvideo.js",
+      'REPORTVIDEO_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-reportvideo-vflqhSdd1.css",
+
+        'IS_RESUMABLE_PLAYBACK': true,
+
+      'TIMING_AFT_KEYS': ['pbp', 'pbs'],
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+        'RELATED_PLAYER_ARGS': {"rvs":"title=Rosi+%26+Kandidat+Pemimpin+Jakarta+%28Bag.+6%29\u0026author=KOMPASTV\u0026length_seconds=2006\u0026session_data=itct%3DCBMQvU4YACITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=iK0gmZrK9k8\u0026endscreen_autoplay_session_data=playnext%3D1%26autonav%3D1%26itct%3DCBQQ4ZIBIhMIxc7P_vX60AIVUoZVCh0GTAW-KPgdMgxyZWxhdGVkLWF1dG9I-Nr37ZmW2elM\u0026short_view_count_text=190+weergaven,title=Rosi+%26+Kandidat+Pemimpin+Jakarta+%28Bag.+4%29\u0026author=KOMPASTV\u0026length_seconds=1333\u0026session_data=itct%3DCBIQvU4YASITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=IEjNpbMMq0o\u0026short_view_count_text=145+weergaven,title=Rosi+%26+Kandidat+Pemimpin+Jakarta+%28Bag.+5%29\u0026author=KOMPASTV\u0026length_seconds=1191\u0026session_data=itct%3DCBEQvU4YAiITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=8nf_HOHZGI4\u0026short_view_count_text=193+weergaven,title=DEBAT+SERU+AHOK+VS+ANIES+DI+KOMPAS+TV%2C+Ahok+Diserang+Terus+Sampai++Membuat+Sistem+Baru\u0026author=mulki+ikram\u0026length_seconds=1088\u0026session_data=itct%3DCBAQvU4YAyITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=1NG19JyvyiE\u0026short_view_count_text=40K+weergaven,title=Rosi+%26+Kandidat+Pemimpin+Jakarta+%28Bag.+1%29\u0026author=KOMPASTV\u0026length_seconds=629\u0026session_data=itct%3DCA8QvU4YBCITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=_n7VPmVnKRE\u0026short_view_count_text=120+weergaven,title=Debat+Cagub.+Ahok+vs+Anis.+di+%27Rosi%27+Kompas.tv\u0026author=Nova+Ryantie\u0026length_seconds=2179\u0026session_data=itct%3DCA4QvU4YBSITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=oB0Ya-qQ1as\u0026short_view_count_text=15K+weergaven,title=Full+Debat+Kandidat+Pemimpin+Jakarta+di+Rosi\u0026author=KOMPASTV\u0026length_seconds=14291\u0026session_data=itct%3DCA0QvU4YBiITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=SRRlpDihpkk\u0026short_view_count_text=134K+weergaven,title=Rosi+%26+Kandidat+Pemimpin+Jakarta+%28Bag.+3%29\u0026author=KOMPASTV\u0026length_seconds=529\u0026session_data=itct%3DCAwQvU4YByITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=4cBkodWYboY\u0026short_view_count_text=167+weergaven,title=Rosi+dan+Kandidat+Pemimpin+Jakarta+Kompas+TV%2C+15+Desember+2016+p1\u0026author=Aldrichenko+News+Channel\u0026length_seconds=1056\u0026session_data=itct%3DCAsQvU4YCCITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=ggFW9hCmIYo\u0026short_view_count_text=10K+weergaven,title=Rosi+dan+Kandidat+Pemimpin+Jakarta+Kompas+TV%2C+15+Desember+2016+p2\u0026author=Aldrichenko+News+Channel\u0026length_seconds=2179\u0026session_data=itct%3DCAoQvU4YCSITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=q_YOoL9kbdM\u0026short_view_count_text=35K+weergaven,title=Mario+Teguh+Menjawab+Ario+Kiswinar+%28Bag.+1%29\u0026author=KOMPASTV\u0026length_seconds=974\u0026session_data=itct%3DCAkQvU4YCiITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=m3xasKpgiug\u0026short_view_count_text=1%2C7%C2%A0mln.+weergaven,title=rosi+dan+kandidat+pemimpin+jakarta+2\u0026author=Pande+Parwata\u0026length_seconds=1909\u0026session_data=itct%3DCAgQvU4YCyITCMXOz_71-tACFVKGVQodBkwFvij4HTIJZW5kc2NyZWVuSPja9-2ZltnpTA%253D%253D\u0026id=gLZPoHO2a9s\u0026short_view_count_text=6+weergaven"},
+
+
+
+          'BG_P': "WGSZ2aIwkL3kUMNb94jOVBjrX2hoP2HE6AHckefPgqrgey6A96pKLVuWDKimK6qxWwMvfG4qJRRlh5v+NokYKugfKpRl0LOpAjmaRF7Yl62rnG0NSBTvBo2s5qlhoLvdMgeaUcsdCgNeMp5s7jaaCzO4CsZnnbbTYvMlLC+viFkjIZFOUaCfCN2qwL0hv2SNV7r91T7MqHFZcDen2JS6e60ZGDfsSMLikpvvOORR8U9l\/91J+0EIRTn3UimAT3XjI+67x95baayV8u6Iu9WCOyioKefotv8Y\/+FblCNciYoYtoCfLZY+3Xbpg2eQ5Nk20aGcMOVJ8RCdAUwqiqHJRlFLqnouGzrzEN99fTQgDhzPcsF1VEYlvSM0BqJFQhi\/zsFvhcyQgiaibU64MEBcnoVFg97M4gd+Qz2ai8tPu\/AUimMC3AqMOnbb4EJkINV4p3hCBmW7Vx1O\/NhHx3YV6vIFP\/FSN9\/8tDG3ybM2Kp\/Or8BGrLRuZyRkv+zNodsDPO2gDStPARXzYFbHntCDm4vEJDhcRVNZKM\/HjwAtrqcSGcZzdeDAwrX7RfsVYTawjZzzrp3Ry+NILAbSvHtcW9YEd5yv5AVoEPgShP0p9QquGYczQsh2VY1nptMzhgd2TPMAPR3kVozZ51CoXa7Lsbpi986ajK7B2eMtV\/bOrHQ0YtZ0+E9bh2jbBwvtBiRmEs\/dlsbgWTE\/xROshXIOd8\/rHkgQOajVJ8yHrdS43hhCSrSAc43samWu6lvoBU6GMWsn20G2L0hHp8kvyiHj7ofUQL1xlXQLtb+7gWnNdEI6Cypaw6ir5h3MfUjGJpjjBdeua98L5EhDtehLvY9N2\/Wo8d83HM6\/swcdcq3qdPSj0eGcHCZFo5XLDpvTUa1gs2F\/xGBpePlE0WkLctdxTFL1GJStMiJNmuTjr6cxL24wOTR5t8YxZ\/087H1V72GuzMAYO5Gu2R3ax2SEzybDUbuOGDpeNUU801hHzV9WKXpQrkZY5Xtsg4LpjmT+H\/H8ZkbRfUi2PV3049uFJQp\/crh9c73Y0\/zB138PwAUOH\/y4eTbCga\/jS0j6YcaMfqwZCC1qewdsrKRMWt\/5IhApwftkxSZ1qqQ\/u4Z+Jkjd7U5ovzqXqI9O4FtgGTBRmWSEBZ2uTQ0rlx0um6wy3uo+FFLKMhPisUC10AMuXeON1tlIBobazjGGuP40C6+LXofXBkEMfxzy75hDPAJW67FeAKmyufNYvjJwHGVPcXX7bZSn7nRKSxEakA1TNzuQmToDnDGdbo+DccqfBVBq05KmCG7xnFAbdRuDH+gKB0\/RyRHXQRDtCIOgvKB\/M6+0JP0YT7PnaH6Od\/Xhbnfq07yH3F5jzRcfiJlOlkHmlgWm8J35pjBc7iqvT3M9Ok98kvOgEQuLMzRWFkgsWQqc5xz3+F3IpnxDXRkDDd0gRpGQHacAZZx7W4JZVE0j85Eazy41XQfI34xtkBhylZlvs+r\/vebvHpMIg0eaoh6z+VN9MESwZSIzkdUhkbmT\/3v67uq\/hQMxu55oYkeL11iNreuJhaer8SAgxTxv\/Xx9JH5ti9aH\/5c1ZcBOR93TkPAzzlXyA3Z3RTJCegBEY4Rj3+GtJvrwjWOLLTLummJlwssmxZOaCRge5TpXlBdo0soMJZDH6TYthM3qvbZ8jlqi+9um1rBz8CPReFisuK30K0ZZdjyBVnmPBkQ+JSmY2aTcKHtpU\/SnTx8fdzRmN1dnz9qG2jCWTKaP6cQs7zXWbwAs00bs1UeWghkJPu2fA70k8kR1jzekGntmOuXUeMmm1OlvHbHpl03K5mTuZvcKRhLUi9xg95ftw271psQGMzR04SNXbI7h0JaINGHWUUoKfPSu0cM0ihmo4YEwtTOXpzvHhdJwOYrOPyvht9gqDSxd1SXXMe39jh0VFEB5FB4oWfQPow27eJ79STV2OS8oGq66TLiF5XDP0mWXkCgrNsOpgC44JgtyEbLmV9uL1j2Cc7E+KM1iKfsaLcHknoBIpY+tOM0yQl\/VYuLcM1zo7R+8\/5pZH\/bUizmYymZGeTnwAGw4OkNsBUpvn1Mbw5j6dy1\/s13eBcvhorWIimiDO58tXKA64fkd9g8mMQoO9Wy2SuC\/bHVs0KrLKrZsN\/mBKVyqw0GiChvqrV3\/eRzaZIkc6bmvVvtpwqrruoxj\/oXlM5pUOJ38b08xUSckjNNlsglrwU7h4Juhlhr+ouo70DTSjVGS8V9bBfb1yKPOYebgJB+whSrAQ76ArxhnG56WvZqhWmxyvWQltuAoIkVX2pzLfDm7AlT8VY7iF8Wn+WheF8ZprknzRyrXv9f24PM329CbUQFGSMWiKyOLN3+nD1TG7l7XVmmGojLxyhbGUUfyvlSutFF5A7cQpqjLjKb4HxxKK8vHeakpytPlA3Nt4A12qY34IZOWZYLsTtegD719yFP1o0fUCEd7LS9uN8smdBK31MGBPTUF681RmUD9KHN5BW\/WwRbTw\/gfxrr7WPEEzqdHihmp3X\/uiS6DYGeKrcRf+be3\/yZi4HUSuhUxwHcvh8OdgpxYi6Cm1Mromw9scOp7asWkQBJ3H2ft+cN6A8uBvIbDNUZYxqfQgNQoY8jaC07hlW1ie2X9KGBZ8JNTfftUeanrCzCoCCxtESEH9NZNOLT0kREEz74wNxCQVT29BAiZQQ+I+A2mfthz4q4Ol+4ObOLqGjwtenIS1ou12c5Kzc5pgnsnqSSxpXTI0RrReM9EAFV4TJmvmBNgq4n6rPh3dRiLsvif\/fz9unz\/h80\/G0wSOb8MQO4mU0XOHWSYrT9rqTC00DtRZSkWyQN+YYq6PxTYEOZuPA6sgMQcOK4zsCKdwwTBPwiKvu7e7upHqVKmYgYXM3rn3zzl32Q19dccJchrL830Ivn3kv1316+dIAmv3\/ilnqI9mnjxDxSnCWLMlo9mQWFrPnLlVurfdBXCOe5DkpF35CuCvFUaoJdxXOT1wcALymR+\/lD5lATEPDonC\/48IrqaHlaDpEJzXcUBtAVCOdPkOo\/mdY+d+8vD2qlNljFLkSYqLjnVOKg7oBZBYEXdSir+yTGjutfK7AK9reXqsu9TVkNYvA2Tr+iKZ7sDtGQga+aR038hc2dYLPxNaItJOiOZDJsC2z\/QMy7Kd+YRmIuxMTFbN1FZc+eDQ6QK3FHbZsnKRpjUUpTlhXNTv0eq\/wyzU+iayzaj4k6u+jXEzyUMJFTfVCCtL9RQCqxl+0V4y8u\/HE2rTKCcDY\/LkAxOiXL0yC64HlObkHl0uToF4hYd5ieUW1\/nsXbW95ecgGS34v2ab65KNC\/XJypisYD\/FwKoFJ50LHAxjmKovPHL3bGbLWE\/oaDxr5z1GZgFwf4LQ61PBGauT5I9apTlFOQ8GgONHjjFiXvXLhifCabYArv4vFYmLAuuo\/Ehofb8cYS+QbXoiU2FDhl\/EnwzYHNmV1dLJzc7j67dm0GUGHik4a8t93dxLGE727RvFqVb5PyCxxeFUACDljmRLbBvC4FYD+7y6QEywjautyADmIiLbk5XfnbQx8mgUgOWm9N3G5CameMhlV4RpzhUHefyXaO1znUNCne\/lWsXveArY+sQ\/9Gq+MxP+hhAhC3z9uYXnvoQLioXhhDILMrxSrEess7SrYUJoDTooV55t84Dz4a+Kd8Oy+c9o5jmmoHmYEJ9vDTvJGblsNWsR6ifsV7AkQ6MsMhwJAzT1o2dMh2wepB7cB+e0ICRIlbvH9pj6l3\/qUt0aW6t\/Zm81hq2E5X0\/roDC4CFymdZt3HNjBnkZ0SZWgnvHVrLuQRbGqqHphYkslf+iGdrEANEX9EmCCd4cPsyUun5icwWhM8MQKWpF8EZCQC2n92RMlcPgCtiFNFUPwYPq7knBRzD1jVm7Js0GaHAUUnRNcqw+SlCHRcyo6brHpoaTn3HZ2dFCiRuiT9JgXhNE0S2N9g3+39IdZTR1SNJRnW9c0gDSJk1Kzf4ztlNE30QrW\/feAofpXN4jctepRHFm+FMMcx6ypg0ar6jh4yQIQDsXpr07bXE8cLCiif4yMSJcSKRCNAj0T2l48FrzGldS+8i\/3HnEk1RBg01Xkkt5NpcOjYkIeUHnruzzY8bO\/PGZFQMOE8qHVKCRT8lRwDCAVlTn095HoUU1j\/\/faOoY8XjKusak4IrpTvFjblKenVZFf1m57k+MygDcOkN26+uUOGUBs3X0PZOH39Nj9WjGxj2USRvwDHoxt8cm8d2l48VS1xscQqf1zNRjvkLodTRCUU6t2J5YDx1W5Vo+dRSTwiZTqDvDIVvrwvXDQ+oR0Flnlk9n5uxpmVHL9sJtYcVoS7p+RKCeRXqofSripAQqfO4jWZ2JiJ0pQZvNkWFTdXdL1kqdBJHlBFI4Li+WNryStuzLXr9eZUDwuIRFYI9NKxptKhEyQJ\/ys0nVfw72Nx55I9zEts+QpD85p7LXMVgfALIUmWvfXWnhZ9atcomXQ0BIN5nQ3IK0BGKre7Qf7gAcJ\/g0rKPBNBI6FeQTUPe2ZA4v9pI6xwNb21gHLNSLUHktayb\/unARUyVG78kavSjBVRyRADmo2hC7is15cf62YdLLPYhny1coAaMSDZ5NiuYBDQWqGghgtEJu6+UFYkrue27cjqATVUz1l+ZTn6+lWrzNpEJKmi7YzaEgcfJBSxQhqx\/P22nMrBA9\/UI3A16cep9iU6baOHGFYFZjXFYyQMdlTzC9Mmu9vh0UiSjSaEZlMJJ5ch5kjrL2Q0Ph0S9h81TcjfmDxrZkpCf1pLoih07r39DC7JC0JATGyiDqsQ6lZsi00irmAf85XHbDvBRhNqJjnC2yAts2uNrk+8uBLP1doBbNEExzb3uPuIYAj3pfbywowibCOfae7UVluZKpkRkpVpRDgoUP8ulRdP9BR847PgSWX3jqqcjYRj6VGaiQQuX6AlvYFdY4INbq6UnQj9cRmEessmbE5EYq6t\/W3hYwMIwXu+SZWIYm18pQxyiOBGcQSpn9tS9fXE0u2MfnZ+ggMZAC81WG+DEk7SlnW6Mf+hI+IhXkGqyhAd\/LeZADgik2wkcdd+fTGLJVUfJHNtTYEfr1EmY46f92iF2oWX8nLS\/Op4yYBwH5pxPexqDpu4x6prJ24AdiQY3eF9Y4NzorsJcmQ0u6UWaMSv5F0tzWY59x0j3SZzZP90YohQEc0mcMlUV92TlRn2832iaY\/tCjybAajXqZSijslzRN1ukexKPmQMl23MdwQnneGoF+xjeFjC7EX0fFK9RQdFh1n0QziV7bIof5L6iG50S+hOCj8HhQ1aqmpQxJp59kC0xbtuAk+ziyAvytF3KGqrQjb4\/rJep5pHlbIeAobcAKy22t9hTfiuF2A6MtrO8+5Ra\/9Q3RAqY1Ocyth+aq3c9DPH87PbIp0P4VuPNwEC5LedaZgrUWDchTi9MtIxplMrooVCnFT81tuu4nZWvkrlGkcbgBb+mlOm5zxHY0etV86pj1m99Ns6T3AsK3JCPvG3OIqpUbXnTeO\/ObaWsowgOpiNUAsz2KtRRdNA0OZ9gM5EaKy234Xc1CMklddC1AENbPX4WsvQ\/rp9cfJOSde1DTZuJqXKqk6A1WCdDfLrcFZDp72cKD3z8KONMS3BDZZYn8hL25jdO2wJu4YKddWCTK0Gcvqch\/aUEoW2pE0M9slghLcSlfIirf+zEkEX3bAeyYKFqM0gkdepl3mXA7gzcjw8atDahMtwqs3ju2kQDp1Eq1w0a66Q\/+8zNyljo6SgHhX4+5MXZNLeupDFQL1ILGKsG4nB+s8xJ0eMoG1zPaCB9\/uGSswIqUYNYoTtpoNdk9Twj1Ilxuo9ywcGNRjQmHqge0gxEMQi9RekhIHPvrGsyDDfsq86TWreqrHDXoWeO5tbIyBcfzcXAOksuQLJmTqsxtCa4KBGWc6cTdgiAWafg9FykbPBmAhZVvRDt++KDH6zif4OQWvMFP5+0KqSNAdAwRtOUWDhLK3dBvSTKPdfZj3NCLGDR+L3RMuc4uw4OTysKHpBsEGVvHgQlov5ukS2gNGAtUi4Fn+B2bTMxWlHA9VEgxEJ6hmxOyCejFd3yIAPi3IVV7Wx5fB\/NXPtR2NF3FsCk\/H032eYT\/Rzll+DXnoMQ7A9agSKsePwEd667641LfDKgQ\/bl\/fuHczEwuLgjpYBvFIOXctVJjP\/dfKb1IB8CNKrM3RCnVFbtFl1kuf2kcW+qe9LvEoWqKQ8JDdUleEzHlIEoaA9XLKbwlvuMhgKapRT5CTw3JsK\/Tw81Gww54cirTPE6djR0qRdd4yuOdnaCwjRSkusdBTpXDpjn0GhKLmJtyvLs64Y5WkLL8rIgaGwh\/L52FeaCsGvOBq8lDIZDovKmejwjnkU\/7UFWYyToBS892P4HFGXBDcCvyFq7\/1xO2xX8zVsMfiFR2zRnIJ0fr8FlE\/Q5attnue0MRg1bts5o\/ztr7DSVuEDjeMplM44gZMST4fBY36FXlv2a3uM\/+ZKNy1oMYOVyE8gIUF0ESpPEdxgtvvd\/Br9VGD0bScQqDOhhiG7mv1Z3BxvvU4MvoOI1V5aZZRbSgJdkH8TCuHjmavA8bWvEtsikJKPQk1AItBLxulC22efuuES5SevYT8wHA6V06YrTtWtXt+L31pfLY1qFp8nb063VtmU9beCXIXZoXl18mkbNRv4Yp32exq5o+phIFOPu9rgG+dR8uyftSvwpBF\/2k+oIUskYUFYOZvjxEfb+S09w1riy4j9mxptgUPjHQ0BygL\/vXJleXCkgoq2GZ95EfKdbW34KDMFd\/CeV+tsKW7jjc6J1zsuqkNBJGmnSXc+9NfwiE93RZuKH\/U4EE+rzrw61FgMPE7V6qiUMJvCVgySJ0qczB0MQuGj6qFeEamr7cC3ov19w7c3UIvcC8Er786AJf5C\/Wkiwh0jaqkN3TFHK9Ox44bmdbf2Pj8lDAiIWRhJ2wZ5dmKfzI67\/\/PESvjEdFmujMPObfjYQLGeCLaOfQuxpTY+e5+Ja0Rrq9GLiAfmLcZxK1pz+cL2EeqRYtGWFStakHTUFS3OChsijXxQ0\/wJnAmK4Nsa9PYbtxjGIMYBRck6\/nHmohRMeYGiftpYN\/Nd3hltRFpIwv7dzZC+xK5wMYsIqUxa23vQ3\/iAe+E5ku1H7dSuJlOa2Zf2rg1B5gDdvQzmpBt5RGbRG6WI07k0i1tOiwKSnwwCtBgvknJQA7bVPhn0jRWRXWNsVutvlVonPq4LOZzRVwHhkXtoADn58Xo+xMsA8mrcqKKlr7+IejksuOAUz9MECilmyL3Z2AGO+V\/86wHi\/sKkh+uFM5Ndw5xEj9fyBra4TmmQFLmorKO2ED4MJ2Q\/0ZQo=",
+          'BG_IU': "\/\/www.google.com\/js\/bg\/24MsDD-Mn0x74D0MIVcLmj9jaKXFniaBDRqohZmd6RE.js",
+
+
+
+        'COMMENTS_TOKEN': "EhYSC1ROTmtzWjI5N1hnwAEAyAEA4AEBGAY%3D",
+
+      'GET_PLAYER_EVENT_ID': "VAZVWMXUEtKM1gKGmJXwCw",
+      'HL_LOCALE': "nl_NL",
+      'TTS_URL': "",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': 1,
+      'SHUFFLE_VALUE': 0,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'RESUME_COOKIE_NAME': null,
+      'CONVERSION_CONFIG_DICT': {},
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'MEMORY_TRACKING_ENABLED': false,
+      'NAVIGATION_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': false,
+      'SHARE_ON_VIDEO_END': true,
+      'SHARE_ON_VIDEO_START': false,
+      'ADS_DATA': {"gut_vars":{"tag":""},"pyv_vars":{"iframe_json":"{\"google_ad_client\":\"\",\"google_loeid\":\"\",\"google_ad_output\":\"\",\"google_core_dbp\":\"\",\"google_lact\":\"\",\"google_video_doc_id\":\"\",\"google_video_url_to_fetch\":\"\",\"google_tag_for_child_directed_treatment\":\"\",\"google_ad_host\":\"\",\"google_language\":\"\",\"google_ad_channel\":\"\",\"google_ad_host_tier_id\":\"\",\"google_cust_age\":\"\",\"google_ad_type\":\"\",\"google_eids\":\"\",\"google_targeting\":\"\",\"google_page_url\":\"\",\"google_ad_block\":\"\",\"google_cust_gender\":\"\",\"google_only_pyv_ads\":false,\"google_max_num_ads\":0,\"google_yt_pt\":\"\"}"},"use_gut":false,"afv_vars":{"google_ad_client":"","google_loeid":"","google_ad_format":"","google_lact":"","google_ad_height":"","google_video_doc_id":"","google_tag_for_child_directed_treatment":"","google_ad_host":"","google_language":"","google_ad_channel":"","google_alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","google_scs":"","google_ad_host_tier_id":"","google_cust_age":"","google_ad_type":"","google_pucrd":"","google_eids":[],"google_targeting":"","google_page_url":"","google_ad_block":"","google_cust_gender":"","google_core_dbp":"","google_yt_pt":""},"afc_vars":{"loeid":"","ad_channel":"","format":"","lact":"","pucrd":"","ad_type":"","ad_host":"","targeting":"","alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","tag_for_child_directed_treatment":"","ad_host_tier_id":"","video_doc_id":"","ad_block":"","ad_client":"","core_dbp":"","eids":[],"language":""},"show_pyv":false,"show_afc":false,"show_afv":false,"show_instream":false,"check_status":false},
+      'PLAYBACK_ID': "AAVD11_VYpbJJhDx",
+      'IS_DISTILLER': true,
+      'SHARE_CAPTION': null,
+      'SHARE_REFERER': "",
+      'PLAYLIST_INDEX': null
+    });
+
+
+    yt.setMsg({
+      'EDITOR_AJAX_REQUEST_FAILED': "Er is een probleem opgetreden bij het ophalen van de gegevens van de server. Probeer het nogmaals of laad de pagina opnieuw.",
+      'EDITOR_AJAX_REQUEST_503': "Deze functie is momenteel niet beschikbaar. Probeer het later opnieuw.",
+      'LOADING': "Laden..."    });
+
+
+    
+
+
+
+
+
+
+
+    
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "nl_NL",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+
+
+<script>yt.setConfig({APIARY_HOST_FIRSTPARTY: "",GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.FgPLF5SwqIU.O\/m=__features__\/rt=j\/d=1\/rs=AHpOoo-9R8fkhlRsCMrG4wpDzgf1RI7BzQ",INNERTUBE_CONTEXT_CLIENT_NAME: 1,INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20161215",INNERTUBE_API_VERSION: "v1",APIARY_HOST: "",'VISITOR_DATA': "CgsyS3JwQzhvTTBzQQ%3D%3D",'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "nl_NL",'INNERTUBE_CONTEXT_HL': "nl",'INNERTUBE_CONTEXT_GL': "NL",'XHR_APIARY_HOST': "youtubei.youtube.com"});yt.setConfig({'ROOT_VE_CHILDREN': ["CAEQpmEiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0","CAIQ7VAiEwjFzs_-9frQAhVShlUKHQZMBb4o-B0"],'ROOT_VE_TYPE': 3832});yt.setConfig({'EVENT_ID': "VAZVWMXUEtKM1gKGmJXwCw",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "",'FORMATS_FILE_SIZE_JS': ["%s B","%s kB","%s MB","%s GB","%s TB"],'DELEGATED_SESSION_ID': null,'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflO-42Iv\/www-pageframe.js",'GAPI_LOADER_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-gapi-loader-vflWJzlHw\/www-gapi-loader.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-en_US-vfloDMEq8\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflCPMjpM.css",'EXPERIMENT_FLAGS': {"cold_load_nav_start_web":true,"web_logging_max_batch":20,"player_swfcfg_cleanup":true,"log_window_onerror_fraction":0.1,"service_worker_scope":"\/","service_worker_push_subscriptions_page_only":true,"navigation_only_csi_reset":true,"consent_url_override":"","autoplay_pause_sampling_fraction":0.0,"enable_server_side_search_pyv":true,"desktop_pyv_on_watch_missing_params":true,"comment_deep_link":true,"desktop_pyv_on_watch_via_valor":true,"block_spf_search_ads_impressions":true,"desktop_pyv_on_watch_override_lact":true,"service_worker_push_enabled":true,"enable_more_related_ve_logging":true,"service_worker_enabled":true,"autoescape_tempdata_url":true,"warm_load_nav_start_web":true,"service_worker_push_ticker_enabled":true,"gfeedback_for_signed_out_users_enabled":true,"use_push_for_desktop_live_chat":true},'GUIDE_DELAY_LOAD': true,'GUIDE_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-guide-vflc9xhok.css",'GUIDED_HELP_PARAMS': {"logged_in":"0"},'HIGH_CONTRAST_MODE_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-highcontrastmode-vfljsBiY8.css",'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" role=\"button\" title=\"Later bekijken\" data-video-ids=\"__VIDEO_ID__\" data-button-menu-id=\"shared-addto-watch-later-login\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Wachtrij\" data-style=\"tv-queue\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n    \u003cbutton onclick=\";return false;\" aria-expanded=\"false\" type=\"button\" aria-haspopup=\"true\" class=\"yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty\" \u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003cul class=\"watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid\"\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-next yt-uix-button-menu-item\" data-action=\"play-next\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eVolgende afspelen\u003c\/span\u003e\u003c\/li\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-now yt-uix-button-menu-item\" data-action=\"play-now\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eNu afspelen\u003c\/span\u003e\u003c\/li\u003e\u003c\/ul\u003e\u003c\/button\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'ZWIEBACK_PING_URLS': ["https:\/\/www.google.nl\/pagead\/lvz?req_ts=1481967188\u0026pg=watch\u0026evtid=AHc2NJ42vHFoAFmaHa2SekOhKE2JEPnmAyyJc6uV8FpjsrN4qb6hyhHBA7H3CNN15N5wTrS8eP-k42JdKQpPqQ5_RbBSsrxkuA\u0026sigh=ADin3AvBnGSQoIle-92oZr9C701rxJdT_Q"],'LOCAL_DATE_TIME_CONFIG': {"formatShortDate":"d MMM yyyy","shortMonths":["jan.","feb.","mrt.","apr.","mei","jun.","jul.","aug.","sep.","okt.","nov.","dec."],"formatLongDateOnly":"d MMMM yyyy","formatWeekdayShortTime":"EE H:mm","firstWeekCutoffDay":3,"firstDayOfWeek":0,"weekendRange":[6,5],"dateFormats":["d MMMM yyyy H:mm","d MMMM yyyy","d MMM yyyy","d MMM yyyy"],"formatLongDate":"d MMMM yyyy H:mm","shortWeekdays":["zo","ma","di","wo","do","vr","za"],"amPms":null,"months":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"weekdays":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"formatShortTime":"H:mm"},'PAGE_CL': 142207133,'PAGE_BUILD_LABEL': "youtube_20161215_0_RC3",'VARIANTS_CHECKSUM': "d9d3c58a6c18a1349f23f4d02e789027",'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "nl",'FEEDBACK_LOCALE_EXTRAS': {"accept_language":null,"is_partner":"","experiments":"9415398,9416475,9417482,9419979,9420289,9422596,9423555,9428398,9428632,9431012,9432923,9432939,9433221,9433839,9433870,9434046,9434289,9434949,9435354,9438015,9438309,9438400,9439451,9439580,9439877,9440054,9441194,9441514,9441929,9442115,9442387,9442426,9442746,9444189,9445634,9445860,9446054,9446062,9446142,9446170,9446212,9446364,9446877,9447232,9447774,9448273,9448302,9448710,9449034,9449243,9449256,9450060,9450402,9450544,9450626,9450637,9450641,9451343,9451384,9451494,9451701,9451783,9451827,9451873,9451937,9452119,9452448,9452747,9452833,9453031,9453098,9453167,9453554,9453682,9454206,9454366,9454383,9454394,9454578,9454653,9454793,9455068,9455228,9455321,9455327,9455655,9456026,9456249,9456418,9456443,9456516,9456630,9456631,9456640,9456671,9456673,9456846,9456930,9457114,9457116,9457169,9457492,9457522,9457532,9457548,9457571,9457580,9457626,9457760,9457968,9458027,9458029,9458231,9458265,9458386","logged_in":false}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "nl_NL",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "Nieuwe afspeellijst maken\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  $dynamic_title_placeholder (nieuwe maken)\n",'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Toegevoegd",'ADDTO_WATCH_LATER_ERROR': "Fout",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Toegevoegd",'ADDTO_WATCH_QUEUE_ERROR': "Fout",'ADDTO_TV_QUEUE': "Queue",'ADS_INSTREAM_FIRST_PLAY': "Er wordt een videoadvertentie afgespeeld.",'ADS_INSTREAM_SKIPPABLE': "De videoadvertentie kan worden overgeslagen.",'ADS_OVERLAY_IMPRESSION': "Er werd een advertentie weergegeven.",'MASTHEAD_NOTIFICATIONS_LABEL': {"case1": "1 ongelezen melding.", "case0": "0 ongelezen meldingen.", "other": "# ongelezen meldingen."},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+",'MDX_AUTOPLAY_OFF': 'Autoplay is uitgeschakeld','MDX_AUTOPLAY_ON': 'Autoplay is ingeschakeld'});  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflabTJpI.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-legacy-vfl7fhSlQ\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"IS_FUSION":false,"REQUEST_LANGUAGE":"nl","SESSION_INDEX":null,"SUGG_EXP_ID":"","PQ":"","REQUEST_DOMAIN":"nl","PSUGGEST_TOKEN":null,"HAS_ON_SCREEN_KEYBOARD":true},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL":"Verwijderen","SUGGESTION_DISMISSED_LABEL":"Suggestie afgewezen"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflV5BbIL\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfls8PFP_.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26next%3D%252F%26hl%3Dnl\u0026service=youtube\u0026hl=nl\u0026uilel=3",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?action_handle_signin=true\u0026skip_identity_prompt=True\u0026next=%2F\u0026feature=purchases",
+    'YPC_GB_LANGUAGE': "nl_NL",
+    'YPC_MB_URL': "https:\/\/payments.google.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTR_FAMILY_CREATION_URL': "https:\/\/families.google.com\/webcreation?usegapi=1",
+    'YTO_GTM_DATA': {'event': 'purchased', 'purchaseStatus': 'success'}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+ytcsi.info('st', 224);ytcfg.set({"CSI_VIEWPORT":true,"TIMING_INFO":{"yt_li":"0","GetPlayer_rid":"0x8d605910a98b5152","cver":"1.20161215","c":"WEB","GetWatchNext_rid":"0x8d605910a98b5152","yt_pl":0,"yt_lt":"cold"},"TIMING_ACTION":"watch,watch7_html5","CSI_SERVICE_NAME":"youtube"});;  yt.setConfig({
+      'XSRF_TOKEN': "QUFFLUhqbGNFS0dWOW56YkJWbGxQQ0p0MjdFX0czaHdQd3xBQ3Jtc0tuZWw3TjM0R3VjQ0x1bjAySWxhQlJuVG1TUHlPRWZJbUd0YTRSdllVOW5mc0pBYlIyRjA3OXByNGJyUmxfU1lZQmhLTmk3ZWt2NWRZT0hncXk0UjVMY0VBUHNNSE5RUnVkcmpMNHllWFl5TUtqWnNJLWhNM0x3YUlMWkJ2VllOV29YemlIaWVxQnpBYkJybHVfYlpRd3FFVGFkWHc=",
+      'XSRF_FIELD_NAME': "session_token",
+
+      'XSRF_REDIRECT_TOKEN': "jMq07cQcqcfWgLWJUC8f500jg8x8MTQ4MjA1MzU4OEAxNDgxOTY3MTg4"  });
+yt.setConfig('ID_TOKEN', null);yt.setConfig('SERVICE_WORKER_KILLSWITCH', false);  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>
