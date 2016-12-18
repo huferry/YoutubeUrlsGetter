@@ -27,26 +27,30 @@ class StreamMapParser
     {
         $stream = new YoutubeStream();
         $stream->url = $this->getUrl();
-        $stream->type = $this->values['type'];
+        $stream->type = $this->getFirstValue('type');
+        $stream->quality = $this->getFirstValue(['quality', 'quality_label']);
+        $stream->itag = $this->getFirstValue('itag');
         return $stream;
+    }
+
+    private function getFirstValue($valueKeys)
+    {
+        $arrayValues = is_array($valueKeys) ? $valueKeys : [$valueKeys];
+
+        foreach($arrayValues as $key)
+        {
+            if (array_key_exists($key, $this->values))
+            {
+                return $this->values[$key];
+            }
+        }
+        return;        
     }
 
     private function copyArg($argName, $valueKey)
     {
-        if (is_array($valueKey))
-        {
-            foreach($valueKey as $key)
-            {
-                $arg = $this->copyArg($argName, $key);
-                if ($arg != '')
-                {
-                    return $arg;
-                }
-            }
-            return;
-        }
-
-        if (array_key_exists($valueKey, $this->values))
+        $value = $this->getFirstValue($valueKey);
+        if ($value != '')
         {
             return "&$argName=".$this->values[$valueKey];
         }

@@ -11,6 +11,6 @@ $v = new Extractor($url);
 
 foreach($v->getVideoData()->getStreams() as $s)
 {
-    print($s->type."\n");
+    print("$s->type [$s->quality] Format: $s->itag\n");
     print($s->url."\n\n");
 }
