@@ -23,6 +23,14 @@ class StreamMapParser
         ));
     }
 
+    public function getStream()
+    {
+        $stream = new YoutubeStream();
+        $stream->url = $this->getUrl();
+        $stream->type = $this->values['type'];
+        return $stream;
+    }
+
     private function copyArg($argName, $valueKey)
     {
         if (is_array($valueKey))

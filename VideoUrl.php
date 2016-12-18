@@ -8,14 +8,19 @@ class VideoUrl
 
     function __construct($url)
     {
-        $youtubePattern = "/https:\/\/www\.youtube\.com\/.+?v=([A-Z|a-z|0-9]{8,12})/";
+        $youtubePattern = "/https:\/\/www\.youtube\.com\/.+?v=([A-Z|a-z|0-9|\_]{8,12})/";
         if (preg_match($youtubePattern, $url, $matches))
         {
             $this->url = $url;
             $this->videoId = $matches[1];
             return;
         }
-        throw new \InvalidArgumentException();
+        throw new \InvalidArgumentException("Invalid Youtube URL");
+    }
+
+    public function getContent()
+    {
+        return file_get_contents($this->url);
     }
 
     function __get($p)

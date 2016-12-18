@@ -1,19 +1,26 @@
-<? namespace YoutubeUrlsGetter;
+<?php namespace YoutubeUrlsGetter;
+
+include_once('VideoData.php');
 
 class Extractor
 {
-    private $url;
+    private $videoUrl;
 
-    public function __construct(VideoUrl $url)
+    public function __construct(VideoUrl $videoUrl)
     {
-        $this->url = $url;
+        $this->videoUrl = $videoUrl;
+    }
+
+    public function getVideoData()
+    {
+        return new VideoData($this->videoUrl->getContent());        
     }
 
     function __get($p)
     {
         if ($p == "videoId")
         {
-            return $this->url->videoId;
+            return $this->videoUrlurl->videoId;
         }
     }
 }

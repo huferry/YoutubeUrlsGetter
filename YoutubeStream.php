@@ -3,4 +3,5 @@
 class YoutubeStream
 {
     public $url;
+    public $type;
 }

@@ -15,14 +15,14 @@ class VideoData
     }
 
     public function getStreams()
-    {
-        $streams = $this->json['args']['url_encoded_fmt_stream_map'];
+    {        
+        $streams = $this->json['args']['url_encoded_fmt_stream_map'].','.
+                   $this->json['args']['adaptive_fmts'];
+
         $result = [];
         foreach(preg_split('/,/', $streams) as $rawstream)
-        { 
-            $youtubeStream = new YoutubeStream();
-            $youtubeStream->url = (new StreamMapParser($rawstream))->getUrl();
-            $result[] = $youtubeStream;
+        {             
+            $result[] = (new StreamMapParser($rawstream))->getStream();
         }
         return $result;
     }
