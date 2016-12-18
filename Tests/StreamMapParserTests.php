@@ -96,6 +96,15 @@ class StreamMapParserTests extends TestCase
         $this->assertEquals("$url&signature=$signature", $parser->getUrl());
     }
 
+    public function testGetUrl_rawHasUrlKeyAndSignature_shouldReturnUrlWithSignatureEqualsToSignature()
+    {
+        $url = 'testurl.testurl';
+        $signature = "5iGn4TuRe";
+        $parser = new StreamMapParser("url=$url&sig=InvalidSig&signature=$signature");
+
+        $this->assertEquals("$url&signature=$signature", $parser->getUrl());
+    }
+
     public function testGetUrl_rawHasFallbackHost_shouldReturnUrlWithFallbackHost()
     {
         $url = 'testurl.testurl';
@@ -106,4 +115,13 @@ class StreamMapParserTests extends TestCase
         $this->assertEquals("$url&signature=$signature&fallback_host=$fbhost", $parser->getUrl());
     }
 
+    public function testGetUrl_rawHasRateBypass_shouldReturnUrlWithRateBypass()
+    {
+        $url = 'testurl.testurl';
+        $key = 'ratebypass';
+        $value = 'yes';
+        $parser = new StreamMapParser("url=$url&$key=$value");
+
+        $this->assertEquals("$url&$key=$value", $parser->getUrl());
+    }
 }

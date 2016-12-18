@@ -42,4 +42,13 @@ class VideoDataTests extends TestCase
         $this->assertEquals($vd->title, 'Rosi & Kandidat Pemimpin Jakarta (Bag. 2)');
     }
 
+    function testGetStreams_withXStreams_shouldReturnsXStreams()
+    {
+        $content = file_get_contents('test.txt');
+
+        $vd = new VideoData($content);
+
+        $this->assertCount(4, $vd->getStreams());
+    }
+
 }

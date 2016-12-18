@@ -1,0 +1,27 @@
+"quality=medium&type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22&url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D179435152%26dur%3D0.000%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481948664191243%26ratebypass%3Dyes%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fwebm%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D448C2A048EE8984111D0A7904691BBE12BBD8843.67892FEC06826E5B0360030AB2F108F051573354%26requiressl%3Dyes%26itag%3D43%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788&itag=43
+
+quality=medium&type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22&url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D148583554%26dur%3D2163.217%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943677453070%26ratebypass%3Dyes%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252Fmp4%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3DA34AC0279B2571165E677F917CFAED3695D6DC03.D224F3F9C82E317F389166217C91ACCF0BB5ECFA%26requiressl%3Dyes%26itag%3D18%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788&itag=18
+
+quality=small&type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22&url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D59838680%26dur%3D2163.263%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943651102453%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252F3gpp%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D3B751419402AEF85FB87D75947397A51353321B2.C55C2EAEC315B09809A86B5C0B75E1AC6EE853%26requiressl%3Dyes%26itag%3D36%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788&itag=36
+
+quality=small&type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22&url=https%3A%2F%2Fr1---sn-ui0pn-5hne.googlevideo.com%2Fvideoplayback%3Fkey%3Dyt6%26clen%3D21741969%26dur%3D2163.263%26source%3Dyoutube%26initcwndbps%3D2617500%26lmt%3D1481943648300071%26ipbits%3D0%26mm%3D31%26ip%3D85.144.105.61%26mn%3Dsn-ui0pn-5hne%26gir%3Dyes%26upn%3D4lZ9xfAtHWo%26mime%3Dvideo%252F3gpp%26id%3Do-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz%26pl%3D16%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cupn%252Cexpire%26mt%3D1481966843%26mv%3Dm%26ms%3Dau%26signature%3D69AF9E2F7BF3545BA7572D95721F58681C9C56F4.DC089C847DEF3AE52E4C3F048F72637205A4B563%26requiressl%3Dyes%26itag%3D17%26ei%3DVAZVWMXUEtKM1gKGmJXwCw%26expire%3D1481988788&itag=17"
+
+
+quality=medium&
+type=video/mp4; codecs="avc1.42001E, mp4a.40.2"&
+url=https://r1---sn-ui0pn-5hne.googlevideo.com/videoplayback?key=yt6&
+clen=148583554&dur=2163.217&
+source=youtube&initcwndbps=2617500&lmt=1481943677453070&
+ratebypass=yes&
+ipbits=0&
+mm=31&
+ip=85.144.105.61&
+mn=sn-ui0pn-5hne&
+gir=yes&
+upn=4lZ9xfAtHWo&mime=video%2Fmp4&id=o-AFliiiX2ilGWr0U2QxdI-SqAXkou_m_YEW_xVfjZ1qQz&pl=16&
+sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cupn%2Cexpire&mt=1481966843&mv=m&ms=au&
+signature=A34AC0279B2571165E677F917CFAED3695D6DC03.D224F3F9C82E317F389166217C91ACCF0BB5ECFA&
+requiressl=yes&
+itag=18&
+ei=VAZVWMXUEtKM1gKGmJXwCw&
+expire=1481988788&itag=18

@@ -16,18 +16,20 @@ class StreamMapParser
             return '';
         }
 
-        return urldecode( $this->values['url'].
-            $this->getArg('signature', ['s', 'sig']).
-            $this->getArg('fallback_host', 'fallback_host'));
+        return urldecode(urldecode( $this->values['url'].
+            $this->copyArg('signature', ['signature', 's', 'sig']).
+            $this->copyArg('ratebypass', 'ratebypass').
+            $this->copyArg('fallback_host', 'fallback_host')
+        ));
     }
 
-    private function getArg($argName, $valueKey)
+    private function copyArg($argName, $valueKey)
     {
         if (is_array($valueKey))
         {
             foreach($valueKey as $key)
             {
-                $arg = $this->getArg($argName, $key);
+                $arg = $this->copyArg($argName, $key);
                 if ($arg != '')
                 {
                     return $arg;

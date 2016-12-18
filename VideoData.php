@@ -1,5 +1,8 @@
 <?php namespace YoutubeUrlsGetter;
 
+include_once('StreamMapParser.php');
+include_once('YoutubeStream.php');
+
 class VideoData
 {
     private $rawResponse;
@@ -9,6 +12,19 @@ class VideoData
     {
         $this->rawResponse = $rawResponse;
         $this->json = $this->parseJson($rawResponse);
+    }
+
+    public function getStreams()
+    {
+        $streams = $this->json['args']['url_encoded_fmt_stream_map'];
+        $result = [];
+        foreach(preg_split('/,/', $streams) as $rawstream)
+        { 
+            $youtubeStream = new YoutubeStream();
+            $youtubeStream->url = (new StreamMapParser($rawstream))->getUrl();
+            $result[] = $youtubeStream;
+        }
+        return $result;
     }
 
     private function parseJson($rawResponse)
