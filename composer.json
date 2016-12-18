@@ -1,5 +1,5 @@
 {
-    "name": "uto/YoutubeUrlsGetter",
+    "name": "uto/youtubeurlsgetter",
     "description": "A PHP library to parse Youtube stream URLs. Based on PHP 7.0.",
     "require-dev": {
         "phpunit/phpunit": "5.7.*"
