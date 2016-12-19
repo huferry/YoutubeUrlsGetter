@@ -6,7 +6,7 @@ use YoutubeUrlsGetter\VideoUrl;
 include('../Extractor.php');
 include('../VideoUrl.php');
 
-$url = new VideoUrl("https://www.youtube.com/watch?v=ecIWPzGEbFc");
+$url = new VideoUrl("ecIWPzGEbFc");// "https://www.youtube.com/watch?v=ecIWPzGEbFc");
 $v = new Extractor($url);
 
 foreach($v->getVideoData()->getStreams() as $s)

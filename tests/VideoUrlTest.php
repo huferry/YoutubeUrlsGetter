@@ -42,6 +42,16 @@ class ExtractorTest extends TestCase
         $this->assertEquals($videoId, $videoUrl->videoId);
     }
 
+    public function testConstructor_withVideoId_ShouldHaveSameVideoIdProperty()
+    {
+        $videoId = "iK0gmZrK9k8";
+
+        $videoUrl = new VideoUrl($videoId);
+
+        $this->assertEquals($videoId, $videoUrl->videoId);
+    }
+    
+
 
 }
 
