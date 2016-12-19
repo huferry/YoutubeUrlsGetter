@@ -1,16 +1,17 @@
-<?php namespace YoutubeUrlsGetter\Tests;
+<?php
 
 use PHPUnit\Framework\TestCase;
 use YoutubeUrlsGetter\VideoData;
 use YoutubeUrlsGetter\VideoUrl;
-include '../VideoData.php';
 
-class VideoDataTests extends TestCase
+//include 'VideoData.php';
+
+class VideoDataTest extends TestCase
 {
 
     function testConstructor_content_shouldHaveSameRaw()
     {
-        $content = file_get_contents('test.txt');
+        $content = file_get_contents('Tests/data/wwwdata.txt');
 
         $vd = new VideoData($content);
 
@@ -26,7 +27,7 @@ class VideoDataTests extends TestCase
 
     function testConstructor_withValidContent_shouldHaveNotNullObjectProp()
     {
-        $content = file_get_contents('test.txt');
+        $content = file_get_contents('Tests/data/wwwdata.txt');
 
         $vd = new VideoData($content);
 
@@ -35,7 +36,7 @@ class VideoDataTests extends TestCase
 
     function testConstructor_withValidContent_shouldHaveSameTitleProp()
     {
-        $content = file_get_contents('test.txt');
+        $content = file_get_contents('Tests/data/wwwdata.txt');
 
         $vd = new VideoData($content);
 
@@ -44,11 +45,11 @@ class VideoDataTests extends TestCase
 
     function testGetStreams_withXStreams_shouldReturnsXStreams()
     {
-        $content = file_get_contents('test.txt');
+        $content = file_get_contents('Tests/data/wwwdata.txt');
 
         $vd = new VideoData($content);
 
-        $this->assertCount(4, $vd->getStreams());
+        $this->assertCount(17, $vd->getStreams());
     }
 
 }

@@ -15,12 +15,4 @@ class Extractor
     {
         return new VideoData($this->videoUrl->getContent());        
     }
-
-    function __get($p)
-    {
-        if ($p == "videoId")
-        {
-            return $this->videoUrlurl->videoId;
-        }
-    }
 }

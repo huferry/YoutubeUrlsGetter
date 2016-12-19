@@ -1,13 +1,10 @@
-<?php namespace YoutubeUrlsGetter\Tests;
+<?php 
 
 use PHPUnit\Framework\TestCase;
 use YoutubeUrlsGetter\StreamMapParser;
 use YoutubeUrlsGetter\VideoData;
 
-include '../StreamMapParser.php';
-include '../VideoData.php';
-
-class StreamMapParserTests extends TestCase
+class StreamMapParserTest extends TestCase
 {
     public function testParse_rawIsEmpty_shouldHaveVeluesEmpty()
     {

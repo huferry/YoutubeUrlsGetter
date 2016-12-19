@@ -1,11 +1,9 @@
-<?php namespace YoutubeUrlsGetter\Tests;
+<?php 
 
 use PHPUnit\Framework\TestCase;
 use YoutubeUrlsGetter\VideoUrl;
 
-include '../VideoUrl.php';
-
-class ExtractorTests extends TestCase
+class ExtractorTest extends TestCase
 {
     /**
      * @expectedException \InvalidArgumentException

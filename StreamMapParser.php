@@ -52,7 +52,7 @@ class StreamMapParser
         $value = $this->getFirstValue($valueKey);
         if ($value != '')
         {
-            return "&$argName=".$this->values[$valueKey];
+            return "&$argName=$value";
         }
     }
 

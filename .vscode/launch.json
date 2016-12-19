@@ -20,17 +20,8 @@
             "type": "php",
             "request": "launch",
             "program": "${workspaceRoot}/vendor/bin/phpunit",
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceRoot}",
             "args":["${file}"]
-        },
-        {
-            "name": "Run Unit Test",
-            "type": "php",
-            "request": "launch",
-            "program": "${workspaceRoot}/vendor/bin/phpunit",
-            "cwd": "${fileDirname}/Tests",
-            "args":["${fileBasename}Tests${fileExtname}"]
-        }   
-
+        }
     ]
 }
