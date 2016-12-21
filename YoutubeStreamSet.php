@@ -13,33 +13,40 @@ class YoutubeStreamSet
 
     public function isVideo()
     {
-        $newSet = new YoutubeStreamSet();
-        foreach($this->set as $s)
-        {
-            if (preg_match('/video\/.+/', $s->type))
-            {
-                $newSet->add($s);
-            }
-        }
-        return $newSet;
+        return $this->copy('typeIsVideo');
     }
 
     public function isAudio()
     {
-        $newSet = new YoutubeStreamSet();
+        return $this->copy('typeIsAudio');
+    }
+
+    private function copy($funcFilter)
+    {
+        $newSet = new YoutubeStreamSet();        
         foreach($this->set as $s)
         {
-            if (preg_match('/audio\/.+/', $s->type))
+            if (call_user_func(array($this, $funcFilter), $s))
             {
                 $newSet->add($s);
             }
         }
-        return $newSet;        
+        return $newSet;                
     }
 
     public function any()
     {
         return $this->length > 0;
+    }
+
+    private function typeIsAudio(YoutubeStream $s)
+    {
+        return preg_match('/audio\/.+/', $s->type);
+    }
+
+    private function typeIsVideo(YoutubeStream $s)
+    {
+        return preg_match('/video\/.+/', $s->type);
     }
 
     function __get($p)
