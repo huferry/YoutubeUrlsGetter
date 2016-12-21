@@ -62,6 +62,36 @@ class YoutubeStreamSetTest extends TestCase
         $this->assertEquals($url, $set->isVideo()->first->url);
     }
 
+    public function testWithFormat_withItag_shouldReturnFirstWithSameItag()
+    {
+        $set = new YoutubeStreamSet();
+
+        $s = new YoutubeStream();
+        $s->itag = '335';
+        $set->add($s);
+        
+        $this->assertEquals($s->itag, $set->withFormat(335)->single->itag);
+    }
+
+    public function testBest_withQuality_shouldReturnWithBestQuality()
+    {
+        $set = new YoutubeStreamSet();
+
+        $s = new YoutubeStream();
+        $s->quality = '350p';
+        $set->add($s);
+        
+        $s = new YoutubeStream();
+        $s->quality = 'hd1080';
+        $set->add($s);
+
+        $s = new YoutubeStream();
+        $s->quality = '128p';
+        $set->add($s);
+
+        $this->assertEquals('hd1080', $set->best->quality);
+    }
+
     private function createArray($types)
     {
         $result = [];
