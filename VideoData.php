@@ -19,10 +19,10 @@ class VideoData
         $streams = $this->json['args']['url_encoded_fmt_stream_map'].','.
                    $this->json['args']['adaptive_fmts'];
 
-        $result = [];
+        $result = new YoutubeStreamSet();
         foreach(preg_split('/,/', $streams) as $rawstream)
         {             
-            $result[] = (new StreamMapParser($rawstream))->getStream();
+            $result->add((new StreamMapParser($rawstream))->getStream());
         }
         return $result;
     }

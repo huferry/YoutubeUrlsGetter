@@ -47,7 +47,7 @@ class VideoDataTest extends TestCase
 
         $vd = new VideoData($content);
 
-        $this->assertCount(17, $vd->getStreams());
+        $this->assertEquals(17, $vd->getStreams()->length);
     }
 
 }
