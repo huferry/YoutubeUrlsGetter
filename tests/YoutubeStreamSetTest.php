@@ -3,6 +3,7 @@
 use PHPUnit\Framework\TestCase;
 use YoutubeUrlsGetter\YoutubeStream;
 use YoutubeUrlsGetter\YoutubeStreamSet;
+use YoutubeUrlsGetter\Format;
 
 class YoutubeStreamSetTest extends TestCase
 {
@@ -62,6 +63,26 @@ class YoutubeStreamSetTest extends TestCase
         $this->assertEquals($url, $set->isVideo()->first->url);
     }
 
+    public function testIsVideo_withFormatMp4_shouldReturnOnlyMp4()
+    {
+        $url = "121212121";
+        $set = new YoutubeStreamSet();
+
+        $streams = $this->createArray(['video/mp4 bla','video/webm','video/mp4 bla bla', 'video/mp3']);
+        $streams[1]->url = $url;
+        foreach($streams as $s)
+        {
+            $set->add($s);
+        }
+
+        $result = $set->isVideo('mp4')->asArray;
+
+        $this->assertEquals(2, count($result));
+        $this->assertEquals("video/mp4 bla", $result[0]->type);
+        $this->assertEquals("video/mp4 bla bla", $result[1]->type);
+    }
+
+
     public function testWithFormat_withItag_shouldReturnFirstWithSameItag()
     {
         $set = new YoutubeStreamSet();
@@ -78,18 +99,18 @@ class YoutubeStreamSetTest extends TestCase
         $set = new YoutubeStreamSet();
 
         $s = new YoutubeStream();
-        $s->quality = '350p';
+        $s->format = (new Format())->asVideo(360);
         $set->add($s);
         
         $s = new YoutubeStream();
-        $s->quality = 'hd1080';
+        $s->format = (new Format())->asVideo(1080);
         $set->add($s);
 
         $s = new YoutubeStream();
-        $s->quality = '128p';
+        $s->format = (new Format())->asVideo(144);
         $set->add($s);
 
-        $this->assertEquals('hd1080', $set->best->quality);
+        $this->assertEquals('1080', $set->best->format->quality);
     }
 
     private function createArray($types)

@@ -4,6 +4,6 @@ class YoutubeStream
 {
     public $url;
     public $type;
-    public $quality;
+    public $format;
     public $itag;
 }

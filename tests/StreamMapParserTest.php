@@ -121,4 +121,18 @@ class StreamMapParserTest extends TestCase
 
         $this->assertEquals("$url&$key=$value", $parser->getUrl());
     }
+    public function testGetStream_withoutQualityLabelNorQuality_shouldReturnQuality0()
+    {
+        $parser = new StreamMapParser("url=my-url");
+
+        $this->assertEquals(0.0, $parser->getStream()->format->quality);
+    }
+
+    public function testGetStream_itag18_shouldReturnQuality360()
+    {
+        $parser = new StreamMapParser("url=my-url&itag=18");
+
+        $this->assertEquals(360.0, $parser->getStream()->format->quality);        
+    }
+
 }

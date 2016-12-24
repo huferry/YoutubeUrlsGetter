@@ -11,9 +11,9 @@ class YoutubeStreamSet
         $this->set[] = $stream;
     }
 
-    public function isVideo()
+    public function isVideo($format = '')
     {
-        return $this->copy('typeIsVideo');
+        return $this->copy('typeIsVideo', $format);
     }
 
     public function isAudio()
@@ -51,16 +51,21 @@ class YoutubeStreamSet
 
     public function sortByQuality()
     {
+        $qset = $this->set;
+        usort($qset, array($this, 'compareQuality'));
         $newSet = new YoutubeStreamSet();
-        $qmap = [];
-        foreach($this->set as $s)
-        {
-            $quality = preg_match('/\d{2,4}/', $s->quality, $match) ? (float)$match[0] : 0.0;
-            $qmap[$quality] = $s;
-        }
-        rsort($qmap);
-        $newSet->set = array_values($qmap);
+        $newSet->set = array_values($qset);
         return $newSet;
+    }
+
+    private function compareQuality($s1, $s2)
+    {
+        if ($s1->format->quality == $s2->format->quality)
+        {
+            return 0;
+        }
+
+        return $s1->format->quality > $s2->format->quality ? -1 : 1;
     }
 
     private function getBest()
@@ -70,6 +75,11 @@ class YoutubeStreamSet
 
     function __get($p)
     {
+        if ($p == 'asArray')
+        {
+            return $this->set;
+        }
+        
         if ($p == 'length')
         {
             return count($this->set);
@@ -103,9 +113,9 @@ class YoutubeStreamSet
         return preg_match('/audio\/.+/', $s->type);
     }
 
-    private function typeIsVideo(YoutubeStream $s)
+    private function typeIsVideo(YoutubeStream $s, $format)
     {
-        return preg_match('/video\/.+/', $s->type);
+        return preg_match("/video\/$format.+/", $s->type);
     }
 
     private function withItag(YoutubeStream $s, $itagNumber)

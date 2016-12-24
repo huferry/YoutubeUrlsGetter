@@ -28,9 +28,16 @@ class StreamMapParser
         $stream = new YoutubeStream();
         $stream->url = $this->getUrl();
         $stream->type = $this->getFirstValue('type');
-        $stream->quality = $this->getFirstValue(['quality', 'quality_label']);
+        $stream->format = $this->parseFormat();
         $stream->itag = $this->getFirstValue('itag');
         return $stream;
+    }
+
+    private function parseFormat()
+    {
+        $itag = (int)$this->getFirstValue('itag');
+        $map = Format::GetMap();
+        return array_key_exists($itag, $map) ? $map[$itag] : new Format();
     }
 
     private function getFirstValue($valueKeys)
