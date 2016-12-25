@@ -51,10 +51,9 @@ class YoutubeStreamSet
 
     public function sortByQuality()
     {
-        $qset = $this->set;
-        usort($qset, array($this, 'compareQuality'));
         $newSet = new YoutubeStreamSet();
-        $newSet->set = array_values($qset);
+        $newSet->set = $this->set;
+        usort($newSet->set, array($this, 'compareQuality'));
         return $newSet;
     }
 
